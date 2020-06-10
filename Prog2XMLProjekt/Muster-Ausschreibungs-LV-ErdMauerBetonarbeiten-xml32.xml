@@ -1,0 +1,4355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GXML Toolbox V3.2 R20170508; http://www.gaeb-toolbox.de/ gtcConverter.dll 
+	used version 2016.06.22 -->
+<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA83/3.2">
+	<GAEBInfo>
+		<Version>3.2</Version>
+		<VersDate>2013-10</VersDate>
+		<Date>2018-02-05</Date>
+		<Time>09:31:26</Time>
+		<ProgSystem>COSOBA-AVA-SYSTEM V7.8.5.0/ GXML Toolbox V3.2 R20170508
+		</ProgSystem>
+		<ProgName>AVA.relax</ProgName>
+	</GAEBInfo>
+	<PrjInfo>
+		<NamePrj>P001</NamePrj>
+		<LblPrj>Musterhaus</LblPrj>
+		<Cur>EUR</Cur>
+		<CurLbl>EURO</CurLbl>
+		<BidCommPerm>No</BidCommPerm>
+	</PrjInfo>
+	<Award>
+		<DP>83</DP>
+		<AwardInfo>
+			<OpenDate>2015-03-27</OpenDate>
+			<OpenTime>00:00:00</OpenTime>
+			<EvalEnd>2015-04-03</EvalEnd>
+			<CnstStart>2015-04-22</CnstStart>
+			<CnstEnd>2015-06-25</CnstEnd>
+		</AwardInfo>
+		<OWN>
+			<Address>
+				<Name1>Reiner</Name1>
+				<Name2>Zufall</Name2>
+				<Street>Musterweg 1</Street>
+				<PCode>12345</PCode>
+				<City>Musterstadt</City>
+				<Phone>01234 5678</Phone>
+				<Fax>01234 5679</Fax>
+				<Email>rz@cosoba.de</Email>
+			</Address>
+			<DPNo>LV001</DPNo>
+		</OWN>
+		<BoQ ID="LV103358">
+			<BoQInfo>
+				<Name>LV001</Name>
+				<LblBoQ>Erd/Mauer/Betonarbeiten</LblBoQ>
+				<Date>2015-02-26</Date>
+				<OutlCompl>AllTxt</OutlCompl>
+				<BoQBkdn>
+					<Type>BoQLevel</Type>
+					<LblBoQBkdn>Gewerk</LblBoQBkdn>
+					<Length>1</Length>
+					<Num>Yes</Num>
+					<Alignment>left</Alignment>
+				</BoQBkdn>
+				<BoQBkdn>
+					<Type>BoQLevel</Type>
+					<LblBoQBkdn>Titel</LblBoQBkdn>
+					<Length>1</Length>
+					<Num>Yes</Num>
+					<Alignment>left</Alignment>
+				</BoQBkdn>
+				<BoQBkdn>
+					<Type>Item</Type>
+					<LblBoQBkdn>Position</LblBoQBkdn>
+					<Length>2</Length>
+					<Num>Yes</Num>
+					<Alignment>left</Alignment>
+				</BoQBkdn>
+				<NoUPComps>6</NoUPComps>
+				<LblUPComp1 Type="Wages">Löhne</LblUPComp1>
+				<LblUPComp2 Type="Materials">Stoffe</LblUPComp2>
+				<LblUPComp3 Type="Unknown">Betriebskosten</LblUPComp3>
+				<LblUPComp4 Type="Plant">Gerätekosten</LblUPComp4>
+				<LblUPComp5 Type="Miscellaneous">Sonstiges</LblUPComp5>
+				<LblUPComp6 Type="Unknown">Nachunternehmer</LblUPComp6>
+				<Ctlg>
+					<CtlgID>CTLG100001</CtlgID>
+					<CtlgType>work category</CtlgType>
+					<CtlgName>GEWERKE</CtlgName>
+				</Ctlg>
+				<Ctlg>
+					<CtlgID>CTLG100006</CtlgID>
+					<CtlgType>cost group DIN 276-81</CtlgType>
+					<CtlgName>DIN276-81</CtlgName>
+				</Ctlg>
+				<Ctlg>
+					<CtlgID>CTLG100000</CtlgID>
+					<CtlgType>cost group DIN 276-93</CtlgType>
+					<CtlgName>DIN 276-93</CtlgName>
+				</Ctlg>
+				<Ctlg>
+					<CtlgID>CTLG100007</CtlgID>
+					<CtlgType>cost group DIN 276-06</CtlgType>
+					<CtlgName>DIN 276-06</CtlgName>
+				</Ctlg>
+				<Ctlg>
+					<CtlgID>CTLG100010</CtlgID>
+					<CtlgType>cost group DIN 276-1 2008-12</CtlgType>
+					<CtlgName>DIN 276-08</CtlgName>
+				</Ctlg>
+				<Ctlg>
+					<CtlgID>CTLG100038</CtlgID>
+					<CtlgType>miscellaneous</CtlgType>
+					<CtlgName>ÖNORM 1801-1 (2009)</CtlgName>
+				</Ctlg>
+			</BoQInfo>
+			<BoQBody>
+				<BoQCtgy ID="IT10335800002" RNoPart="1">
+					<LblTx>
+						<p
+							style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+							<span style="font-family:Arial;font-size:10pt;">Baustelleneinrichtung</span>
+						</p>
+					</LblTx>
+					<BoQBody>
+						<BoQCtgy ID="IT10335800003" RNoPart="1">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Baustelle einrichten</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Item ID="IT10335800004" RNoPart="1">
+										<LumpSumItem>Yes</LumpSumItem>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>psch</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<StLNo Type="StLK">0710110711</StLNo>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ger</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">te, Werkzeuge und sonstige
+																Betriebsmittel, die zur</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">vertragsgem</span>
+															<span style="font-family:Arial;font-size:10pt;">äß</span>
+															<span style="font-family:Arial;font-size:10pt;">en Ausf</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">hrung der Bauleistungen</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">erforderlich sind, auf die Baustelle
+																bringen,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">bereitstellen und - soweit der Ger
+															</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">teeinsatz nicht</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">gesondert verg</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">tet wird - betriebsfertig aufstellen
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">einschl. der daf</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r notwendigen Arbeiten. Die</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">erforderlichen festen Anlagen
+																herstellen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Baub</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">ros, Unterk</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">nfte, Werkst</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">tten, Lagerschuppen</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">und dgl., soweit erforderlich,
+																antransportieren,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">aufbauen und einrichten.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Strom-, Wasser-, Fernsprechanschluss
+																sowie</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Entsorgungseinrichtungen und dgl. f
+															</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r die Baustelle,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">soweit erforderlich, herstellen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bei Bedarf Lagerpl</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">tze, sonstige Platzbefestigungen und
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wege im Baustellenbereich anlegen.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Oberbodenarbeiten einschl. Beseitigen
+																von Aufwuchs f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">die Baustelleneinrichtung, soweit
+																erforderlich,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">ausf</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">hren.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Fl</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">chen beschaffen, sofern die vom AG zur
+																Verf</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">gung</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">gestellten nicht ausreichen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Kosten f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r Vorhalten, Unterhalten und Betreiben
+																der</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ger</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">te, Anlagen und Einrichtungen einschl.
+																Mieten,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Pacht, Geb</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">hren und dgl. werden nicht mit dieser
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Pauschale, sondern mit den
+																Einheitspreisen der</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">betreffenden Teilleistungen verg</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">tet. Soweit nicht f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">bestimmte Leistungen f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r das Einrichten der Baustelle</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">gesonderte Positionen im
+																Leistungsverzeichnis enthalten</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">sind, gilt die Pauschale</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r alle Leistungen s</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">mtlicher Abschnitte des</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Leistungsverzeichnisses.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Zufahrt zur Baustelle vorhanden.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Baustelle einrichten Sämtl.LV-Abschn. Zufahrt
+																	vorh.</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800005" RNoPart="2">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100007</CtlgID>
+											<CtlgCode>591</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:justify;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:9pt;">Verkehrsschild nach StVO mit
+																Befestigungsmaterial abbauen. Unbrauchbares Material
+																entsorgen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:justify;margin-top:0pt;margin-bottom:0pt;tab-stops:20.90mm 22.90mm 80.00mm 100.00mm 120.00mm 140.00mm 160.00mm 180.00mm 200.00mm 220.00mm 240.00mm 260.00mm 280.00mm 498.60mm;">
+															<span style="font-family:Arial;font-size:9pt;">Schildgröße</span>
+															<span
+																style="font-family:Arial;font-size:10;mso-tab-count:1;">   </span>
+															<span style="font-family:Arial;font-size:9pt;">:</span>
+															<span
+																style="font-family:Arial;font-size:10;mso-tab-count:1;">  </span>
+															<span style="font-family:Arial;font-size:9pt;">bis 1,00 m²</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:justify;margin-top:0pt;margin-bottom:0pt;tab-stops:20.90mm 22.90mm 80.00mm 100.00mm 120.00mm 140.00mm 160.00mm 180.00mm 200.00mm 220.00mm 240.00mm 260.00mm 280.00mm 498.60mm;">
+															<span style="font-family:Arial;font-size:9pt;">Transportweg</span>
+															<span
+																style="font-family:Arial;font-size:10;mso-tab-count:1;"> </span>
+															<span style="font-family:Arial;font-size:9pt;">:</span>
+															<span
+																style="font-family:Arial;font-size:10;mso-tab-count:1;"> </span>
+															<span style="font-family:Arial;font-size:9pt;">bis 5 km</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Verkehrsschild m.Bef.abb.u.entsorgen,1m²</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800006" RNoPart="3">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>5.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>398</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100006</CtlgID>
+											<CtlgCode>6210</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100007</CtlgID>
+											<CtlgCode>397</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>398</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<STLBBau>
+												<STLBBauCtlg>
+													<CtlgName>STLB-Bau</CtlgName>
+													<VersDate>2008-10</VersDate>
+													<WCtg>000</WCtg>
+													<Group>1789</Group>
+												</STLBBauCtlg>
+												<STLBBauID>
+													<ArtChrIdent>2136</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>15</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>5870</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>15</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>5871</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>2</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>9710</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>1</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>9708</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>18</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>5875</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>3</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>9709</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>6</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>8355</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>1</ChVIdent>
+												</STLBBauID>
+												<STLBBauID>
+													<ArtChrIdent>8614</ArtChrIdent>
+													<ArtChIdx>0</ArtChIdx>
+													<ChVIdent>1</ChVIdent>
+												</STLBBauID>
+											</STLBBau>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abdeckung aus Holz unverschiebbar und
+																durchtrittsicher aufbauen, Lastaufnahme mind. 2 kN/m2,
+																auf Sch</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">chten, </span>
+															<span style="font-family:Arial;font-size:10pt;">Ö</span>
+															<span style="font-family:Arial;font-size:10pt;">ffnungsgr</span>
+															<span style="font-family:Arial;font-size:10pt;">öß</span>
+															<span style="font-family:Arial;font-size:10pt;">e bis 1 m2.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Abdeck. Holz Aufbauen Lastaufnahme 2kN/m2 bis 1m2
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800007" RNoPart="4">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>150.000</Qty>
+										<QU>mWo</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Schutzzaun, auf Baugrubenabdeckungen,
+																aufstellen, f</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">r die Dauer der vertraglichen Ausf
+															</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">hrungsfrist vorhalten.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ausf</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">hrung als Absperrung nach Wahl des AN.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Zaunoberkante </span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">ber Boden 1,50 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">T</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">ren werden gesondert verg</span>
+															<span style="font-family:Arial;font-size:10pt;">ü</span>
+															<span style="font-family:Arial;font-size:10pt;">tet.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abrechnung nach Zaunl</span>
+															<span style="font-family:Arial;font-size:10pt;">ä</span>
+															<span style="font-family:Arial;font-size:10pt;">nge Vorhaltedauer in Metern x Wochen.
+															</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Schutzzaun n. Wahl AN, h=1,50 m, auf
+																	Baugrubenabdeckungen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800008" RNoPart="5">
+										<LumpSumItem>Yes</LumpSumItem>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>psch</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bauzaun, auf unbefestigtem Untergrund,
+																aufstellen, für die Dauer der gesamten Bauzeit vorhalten
+																und anschließend wieder abbauen. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ausführung mit Maschendraht. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bodenabstand 5 cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Zaunoberkante über Boden 2,00 m. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Vorhaltedauer: 9 Monate</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Maschendraht-Bauzaun, B-Abstand 5 cm h= 2,00 m
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800009" RNoPart="6">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>100.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Behelfsmäßige Schutzvorrichtung als
+																Staubschutz an Bauwerksöffnungen herstellen, für die
+																Dauer der vertraglichen, kalkulierten Ausführungsfrist
+																des AN vorhalten und beseitigen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bespannung mit Kunststoff-Folie, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Übergänge zusätzlich abdichten, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">in allen Größen. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Max. Höhe von 3,50 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Staubschutz herst., vorh. u. beseitigen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800010" RNoPart="7">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>80.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Behelfsmäßige Schutzvorrichtung als
+																Umwehrung im Bauwerk herstellen, für die Dauer der
+																gesamten Bauzeit vorhalten und beseitigen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bekleidung mit Brettern, an Treppen,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Treppenöffnungen und sonst. Öffnungen in
+																Wänden und Decken. Abrechnung nach gemeinsamem Aufmaß.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Umwehrung herst., vorh. u. beseitigen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800011" RNoPart="8">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Times New Roman;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bürocontainer entsprechend den baulichen
+																Anforderungen und den Anforderungen an die Einrichtung
+																nach Par. 45 und 46 Arbeitsstättenverordnung und der
+																Arbeitsstättenrichtlinie ASR 45/1-6, für
+																Objektüberwachung, 12 Personen, aufstellen, für die
+																Dauer der vertraglichen Ausführungsfrist vorhalten und
+																beseitigen.</span>
+															<br />
+															<span style="font-family:Arial;font-size:10pt;">Grundflächengröße 15 m²,</span>
+															<br />
+															<span style="font-family:Arial;font-size:10pt;">Vorhaltedauer 9 Monate.</span>
+														</p>
+														<p
+															style="font-family:Times New Roman;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<image width="239" Type="image/jpeg"
+																Encoding="base64">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRof
+																Hh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwh
+																MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAAR
+																CAC0AO4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+																AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+																FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+																h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+																5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+																AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+																NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+																hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+																5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKA
+																CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK8e/aN/5J7Yf9hWP/ANEy17DXj37R
+																v/JPbD/sKx/+iZaAPYaKKKACiiigAoozRQAUUUUAFFFFABRRRQAUUUUAFFB6Vn3eoQWktvFK
+																6iS4k8uNSwBY47AkZ/CgDQorCHiKyM3kgkN9pe1Ad0Us6DLbQzAt+GT7Vds7+O/t/OhwU3EB
+																g6PnHXlSR/X2oA0KKKKACiiigAooooAKKKKACiiigArx79o3/knth/2FY/8A0TLXsNePftG/
+																8k9sP+wrH/6JloA9hooooAKKKKAMjUbq5t5rX7PC0rO7AwhgC4CMcAngHIHp9cVYiku5EDNa
+																pEzAHY83zA+hwCMj2JFLe/8AH9p3/XZv/Rb1eoAg33f/ADxh/wC/p/8AiaN93/zxh/7+n/4m
+																p6KAIN93/wA8Yf8Av6f/AImjfd/88Yf+/p/+JqeigCDfd/8APGH/AL+n/wCJo33f/PGH/v6f
+																/ianooAg33f/ADxh/wC/p/8AiaN93/zxh/7+n/4mp6KAK++6/wCeMP8A39P/AMTWfeab/aRi
+																+0wRlom3I6TujKfqoBwe4zg1sUUAc82jNjbCBDC1w1xPEJA6Ts3J3b42IGQD8pH1q1aWt1Zo
+																wLfaZpGLNLLIoY+mdsYHHQcVr0UAQb7v/njD/wB/T/8AE0b7v/njD/39P/xNT0UAQb7v/njD
+																/wB/T/8AE0b7v/njD/39P/xNT0UAQb7v/njD/wB/T/8AE0b7v/njD/39P/xNT0UAQb7v/njD
+																/wB/T/8AE0b7v/njD/39P/xNT0UAV993/wA8Yf8Av6f/AImq9xNfQwu8dks7LyI0mwW/76AH
+																61oUUAc/od5d3V/rsF1gLb3qxwqMHapt4XIzj+8zHnJ59q8+/aN/5J7Yf9hWP/0TLXoeg/8A
+																Ib8Uf9hKP/0kt688/aN/5J7Yf9hWP/0TLQB7DRSEgdaWgAooooAo3v8Ax/ad/wBdm/8ARb1e
+																qjen/T9OH/TZv/Rb1eoAKKCayLTXbG91O40+3uRJc24zMgVv3fJGCcYzx0znkHoRQBr0UUUA
+																FFFUtR1Kz0q0e7vZhBAn33boPrQBdoqnZXkF/Zx3dqxaCVQyMUK5B74IBq5QAUUUUAFFZh1e
+																zXU10/fIblhnYInIA9zjArToAKKKKACiqt3eQWNtJcXMgjhjGWZugHvUdlfQahbC5tZDJESQ
+																GKlQcH3GaAL1FFFABRQelZc2sWcF9FZSPILiXhEWJ3z6ZIBA79fQ+hwAalFFFAGDoP8AyG/F
+																H/YSj/8ASS3rzz9o3/knth/2FY//AETLXomhf8hvxP8A9hKP/wBJLevO/wBo3/knth/2FY//
+																AETLQB6rdK7W7mFQ0iqSilygJxwCQCQPwP0NZ/h5pNQ8OaZfXbN9pubSGaXZK4UOyAnAJ6ZJ
+																rbPQ1j+FP+RN0P8A7B9v/wCi1oA0vssf96X/AL/P/jQbaIdWl/7/ADf41Re/d7uS1sYfOljA
+																MsjttjiJI+UnkltpLBQDxjJUMpLTpi3BzqErXeR8yPxDj08vOCO/zbj78UAecfG/VbrSPDWn
+																jStXurK7fUFSRre7dZNhjc4OGzjOP0qifhn4sLpDH8TteldgC3liUhBkA5JnAGAwOM5IBwDi
+																vVbi2htZdOgt4khjErhUjUKo/duegqHSNLlswHkmhcbAiCKExkrknLksd7ck5wOSTjmgDz3/
+																AIVD4uI/5Kxrn5S//H6aPg/4tUlh8VtbBPUhZcn/AMj17DRQB5B/wqHxf/0VjXPym/8Aj9H/
+																AAqHxf8A9FY1z8pv/j9ev0UAeQf8Kh8X/wDRWNc/Kb/4/SH4Q+LiMf8AC19c/Kb/AOP17BRQ
+																B4+PhB4tAwPivrYA4ACy8f8Akel/4VD4v/6Kxrn5Tf8Ax+vX6KAPIP8AhUPi/wD6Kxrn5Tf/
+																AB+j/hUPi/8A6Kxrn5Tf/H69fooA8f8A+FP+Lc5HxX1vJ77Zf/j9L/wqHxf/ANFY1z8pv/j9
+																ev0UAeQf8Kh8X/8ARWNc/Kb/AOP0f8Kh8X/9FY1z8pv/AI/Xr9FAHj//AAqDxcevxY1z8pf/
+																AI/QPhB4uHT4sa4Pwl/+P17BRQB5B/wqHxf/ANFY1z8pv/j9H/CofF//AEVjXPym/wDj9ev0
+																UAeQf8Kh8X/9FY1z8pv/AI/Sf8Kf8W7t3/C19b3eu2X/AOP17BRQB5B/wqHxf/0VjXPym/8A
+																j9VdQ+GHi3TtNurw/FLXJBbwvLs/fDdtUnGfP46V7TWZ4j/5FnVv+vOb/wBANAHlnwa8W3dx
+																4NvH1O51XUrtb5xHJLDc3I2+XHhS6q+3nJx75xzWP8ZNS1jVvhxp8upaXBp8TamhXM8rS7hH
+																KMFHhTA6nOT265zW9+zn/wAiFqP/AGFJP/RUVO/aJ/5J/Yf9hWP/ANFS0Aeunoa5fRrh4vA+
+																gxRSBLi4sreGE8ZDGIEsAeDtUM2O4U11B6Gua8KW7nQNEuWf5F0uBI0G4YJRSxPzYbOFx8uR
+																hufmIoAg1m3ghtXJ8OJdRQRTKJZPLZlDg7iuSWO/J3dCcnOaoSx2suoRS3fhxoX82zMarFFK
+																Y5k3EKSjfKVDYDZwARng4PdkZBFZcelWaAhYQVZo32MxZdyY2kAkgEbRyOeB6UAczF4i1K98
+																Xy2T6TdraWc2xG8pFDMYdxG/zcEjd0A6Hrxz2Vqd1rExUqSgypxkcdOKhvf+PzT/APrs/wD6
+																LercP+oj/wB0fyoAkooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoPSijtQ
+																BTvb+z0638+9uoLaLIHmTyhFz6ZNYeseINF1Hw/qtvZatY3MxspiI4blHYgIewOat69PFbXG
+																jzTSxxRrenLu21RmGUda5fWNRuLzSZlvL/SppSLh44LFtxiT7PNjLbsseRztUdetAHGfAXUr
+																q30cWK2cr2tzqM5NykZZVZYYzhiCAg9Cc5zgDgkbP7Rf/JP7D/sKx/8AoqWk/Zy/5ELUf+wp
+																J/6KipP2jf8Aknth/wBhWP8A9Ey0Ad6LKaPX4pJY7ufJfbdSSJ+6DD/VKqqP3fGSTg7hFy+P
+																ky/Cnh6RfD9ld2msajafbLW2nliiWBk3i3ijyN8bEfLGvfrmtRCza5HctDeuheaCJpEXZEP4
+																m5UOMtHgclSGGDyALfhP/kTdD/7B9v8A+i1oAX+xr/8A6GbVf+/dr/8AGaP7Gv8A/oZtV/79
+																2v8A8ZrYooA8m+Keq654N0fTNSsdcup5XvhCVuobdlAZHycLGvPGOvc16pB/x7R/7g/lXkn7
+																Q/8AyKOj/wDYVT/0W9euQ/6iP/dH8qAJKKKKAKl1cw2NtJc3EiRQxjc8jtgKO5JPQVn/APCX
+																+Gv+hi0n/wADY/8AGtWaFJ4mikG5GGCCOtRf2bY4/wCPO3/79L/hQBzuo+NdLt/JFhqOjXhZ
+																iJDJqsUQjGOuec88YxSr450r7NLJJf6X5qfdjTVIDv8AoSwH54rof7Nsf+fO3/79L/hR/Ztj
+																/wA+dv8A9+l/woAyE8YeHtq+b4g0hWx8wW+jIB+pIyPfH5Ulx4z8OQQl11rT52BAWKG6jZ2J
+																OMAbuetbH9m2P/Pnb/8Afpf8Kq3mh2F5avbtbRRh8fNHGoIwc8HFAGoDkZ/nS0gGKWgAoooo
+																Ao6hfQ6dZPeXBxFHgsxONoJxk+3NUv8AhL/DP/QxaT/4Gx//ABVaF7Zx31o1tKT5bkZx7EH+
+																lH9m2P8Az52//fpf8KAOcvfG+lwMgs9Q0m63KzOzapDHtxjC98k5OO3HJGagg+IGmmymnuZL
+																KOZACkEeq2ztJk9ATIqgj3IHvXVf2bY/8+dv/wB+l/wo/s2x/wCfO3/79L/hQBmJ4w8NlRnX
+																9LU+hvYif0akbxh4dyixa3ps8juqLFFdxszFmCjA3eprU/s2x/58rf8A79L/AIVBNpNjMgQW
+																0KYZXDJGoIIYMMce1AGiDxnpS0gGBS0AFZniP/kWdW/685v/AEA1p1meI/8AkWdW/wCvOb/0
+																A0AeZfs5/wDIhaj/ANhST/0VFSftG/8AJPbD/sKx/wDomWl/Zz/5ELUf+wpJ/wCioqT9o3/k
+																nth/2FY//RMtAHsB6Gsfwn/yJuh/9g+3/wDRa1sHoax/Cf8AyJuh/wDYPt//AEWtAGzRRQel
+																AHj/AO0Mc+EdHx/0FU/9FvXrkP8AqI/90fyrxP476attoNneqyA3OqR7lSMLuxEwBc9WYYOO
+																gAOMcZr2yH/UR/7o/lQBJRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+																QAVmeI/+RZ1b/rzm/wDQDWnWX4k/5FfVv+vOb/0A0AeZ/s5/8iDqP/YUk/8ARUVO/aK/5J/Y
+																f9hWP/0VLWH8BdGurrTP7Yj1J44ba9uIJLMwqyyh4oTkN95TkDJ5yAOnOdv9oz/kn+n/APYV
+																j/8ARUtAHrx6Gsfwn/yJuh/9g+3/APRa1av5ZoYD5FvcTO3y4tzGGXj73zkDj8fpWTost9pe
+																h2GnPo+oTva20cBk3W67yihd2PN4zjOKAOlorM/tS8/6AOo/9/Lf/wCO0n9qXn/QB1H/AL+W
+																/wD8doA8z/aH/wCRR0f/ALCqf+i3r1yH/UR/7o/lXl3xY0LxB4y8NWdro+iXBuYL5Zik80C5
+																XY4yD5hHBI/P61krqnx2RQq+HtNwAAP3kH/x2gD2uivFf7X+PH/QvaZ/38g/+PVSt/Fvxku7
+																2Wzt9M0WW6hz5kSTwFlxjOR53bI/OgD3euO1b4g+H9Gv73T59Qt0v7dU/cvKFDFui7uxHfPQ
+																EHpXDf2t8d/+hd0z/v5B/wDHqRtU+OzAg+HdMwRj/WQf/HqAPQNN8caNrGoWtjpuoWl3cTI7
+																ukU4JjC9eDgnnpwMjnpzW7cX1nbSwR3N3BDJO+yFZJApkb0XPU+wriLSHxbJaQ/2hpuptLtQ
+																mOLUreKNGA5ACLkqT2YtUk2o6noNpJO+hvYQM+52F3aIGcnGcBOSfzNAHVJqjTbDbWF9MhlM
+																Ts0Pk+Xj+IiUoSvuobNC3WopcQNcw2sMLyFGRHaRjn7pBIUD3GD7E1gW+q+I7mBZoNHu3jbO
+																GF9a444/ue1UPEFz46l0wHSdEmN5HIrx+deWxTIPcDbkfiKAPRaK8V/tb47/APQu6Z/38g/+
+																PUf2t8d/+hd0z/v5B/8AHqAPaqK8JTxR8aJLx7OPRtLe4jbDorwnacZwcS8cetXP7W+O/wD0
+																Lumf9/IP/j1AHe65470HQb+exv8AUIIrpIPOWNnHzZOAvsTx17HPSqGn/EGx1S6trWzu9OuL
+																y4uDCLX7YAyhR87BhuDjuvCk/gTXIf2r8d85/wCEd0zP/XSD/wCPV1OiSeMLbSIVu/D8sd43
+																zziC7tlUuepxg/qTQB1p1Jog32iyvYV88QoRF5vmZ6MBGWKr7sFx3xVi1vrS93/ZbqGcI5R/
+																KkDbWHUHHQ1zE2qeJbeCSabSLqOJFLMzX9qAAOpJ2VUjvdV1gR3K6G94sLsI5Dd2j7H6Hadn
+																BoA77Ipa81vE8aWtgzaLpupLdIC0cVxqUE8chPZt4zgc42stc/8A2t8d/wDoXdM/7+Qf/HqA
+																PaqK8V/tb48f9C9pn/fyD/49VaTxJ8aYbtbVtF0s3EgG2MSQkgHOCQJeB8rDJ4yDQB7nWX4k
+																48Mat/15zf8AoBryn+1vjv8A9C7pn/fyD/49UN3efHG+s57Sfw9p3lTxtG+2WAHawwcfvveg
+																BfgVq+naN8PL6bU9QtbGJ9WdFkuZhGpbyozjLcZwCaT48a7pOr+ALQabqlletFqkXmfZ5klK
+																ZimxnaTjofyrU+Fnw8vNK8K3Np4ns7q1uXvzMkMWoOEKhY9rYik253KevPH0qP8AaG4+H9gR
+																1/tSMc88eVL9aAPYKKKKACiiigAooooAKz7TTrKyMps7K3tjK5kk8mJV3serHA5J9TzWhRQA
+																UUUUAFUL7T7LU7b7NfWkF3AWDGKeIOhI6HB44q/RQBXt7eG0t0ht4Y4YUGFjjUKqj2A4FWKK
+																KACiiigDMGk6cLtrsafaC5dw7TCFd7MOhLYySOcGtOiigAoPSiigCneWdrf2klreW0VzBIMP
+																FMgdW78g8Gm2NhaabbLbWNpBbW6kkRQxhFBJ5wAABV6igAooooAD0rKk0jTLi9+2y6dZvdEK
+																vnNApchSGUbiM8FQfYgelatFABRRRQAV49+0b/yT2w/7Csf/AKJlr2GvHv2jf+Se2H/YVj/9
+																Ey0Aew0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+																UUAFFFFABXj37Rv/ACT2w/7Csf8A6Jlr2GvHv2jf+Se2H/YVj/8ARMtAHAf8NG+L/wDoG6H/
+																AN+Zv/jtH/DRvi//AKBuh/8Afmb/AOO0UUAH/DRvi/8A6Buh/wDfmb/47R/w0b4v/wCgbof/
+																AH5m/wDjtFFAB/w0b4v/AOgbof8A35m/+O0f8NG+L/8AoG6H/wB+Zv8A47RRQAf8NG+L/wDo
+																G6H/AN+Zv/jtH/DRvi//AKBuh/8Afmb/AOO0UUAH/DRvi/8A6Buh/wDfmb/47R/w0b4v/wCg
+																bof/AH5m/wDjtFFAB/w0b4v/AOgbof8A35m/+O0f8NG+L/8AoG6H/wB+Zv8A47RRQAf8NG+L
+																/wDoG6H/AN+Zv/jtH/DRvi//AKBuh/8Afmb/AOO0UUAH/DRvi/8A6Buh/wDfmb/47R/w0b4v
+																/wCgbof/AH5m/wDjtFFAB/w0b4v/AOgbof8A35m/+O0f8NG+L/8AoG6H/wB+Zv8A47RRQAf8
+																NG+L/wDoG6H/AN+Zv/jtH/DRvi//AKBuh/8Afmb/AOO0UUAH/DRvi/8A6Buh/wDfmb/47R/w
+																0b4v/wCgbof/AH5m/wDjtFFAB/w0b4v/AOgbof8A35m/+O0f8NG+L/8AoG6H/wB+Zv8A47RR
+																QAf8NG+L/wDoG6H/AN+Zv/jtH/DRvi//AKBuh/8Afmb/AOO0UUAH/DRvi/8A6Buh/wDfmb/4
+																7R/w0b4v/wCgbof/AH5m/wDjtFFAB/w0b4v/AOgbof8A35m/+O1g+M/irrfjbRY9P1Sy01II
+																bhJ18iORSWCOvJLnsxoooA//2Q==
+															</image>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Bürocontainer aufst., vorh., entfernen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800012" RNoPart="9">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Toilettenraum entsprechend den baulichen
+																Anforderungen und den Anforderungen an die Einrichtung
+																und die Ausstattung nach Par. 48
+																Arbeitsstättenverordnung und der
+																Arbeitsstättenrichtlinie ASR 48/1,2 auf den vom Bauherrn
+																ausgewiesenen Flächen vorhalten, aufstellen und
+																beseitigen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Einrichtung 1 Klosett, 1 Waschtisch und
+																2 Urinale,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Vorhaltedauer 9 Monate.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Im Einheitspreis sind die Kosten für
+																Betrieb und Unterhalt enthalten.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Toilettenraum für AN aufstell. 1 WC, 1 WT, 2 Pi.
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+						<BoQCtgy ID="IT10335800013" RNoPart="2">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Medienversorgung</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Item ID="IT10335800014" RNoPart="1">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>9.000</Qty>
+										<QU>Mt</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Baustromversorgungsanlage für die
+																gesamte Baustelle auf dem Baugelände installieren, 9
+																Monate vor- und instandhalten sowie wieder entfernen.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Anzahl Baustromverteilerschränke 2,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Anzahl Stromunterverteiler 2,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">einschl. der dazugehörigen notwendigen
+																Anschluss- und Verbindungsleitungen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Die gesamte Anlage ist gemäß den
+																einschlägigen VDE-Bestimmungen zu errichten und in
+																vorgeschriebenen Zeitabständen nach UVV
+																&#x22;Elektrische Anlagen und Betriebsmittel&#x22; zu
+																überprüfen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Im Preis inbegriffen sind die
+																notwendigen Antragstellungen, Prüfgebühren,
+																Anschlussmöglichkeiten für Fremdfirmen sowie die
+																Verbrauchsabrechnungen mit den Fremdfirmen und
+																Versorgungsunternehmen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Baustromversorgungsanlage errichten vorhalten,
+																	entfernen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800015" RNoPart="2">
+										<LumpSumItem>Yes</LumpSumItem>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>psch</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>000</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>391</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bauwasserversorgungsanlage für die
+																gesamte Baustelle auf dem Baugelände installieren, 9
+																Monate vor- und instandhalten sowie wieder entfernen.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wasserzapfstellen 1/2&#x22;, Anzahl 2,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wasserzapfstellen 3/4&#x22;, Anzahl 2,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Anschlüsse für Wasch- und
+																Toilettenwagen, Anzahl 1, einschl. der dazugehörigen
+																notwendigen Anschluss- und Verbindungsleitungen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Alle Wasserleitungen sind frostsicher zu
+																verlegen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Im Preis inbegriffen sind die
+																notwendigen Antragstellungen, Prüfgebühren,
+																Anschlussmöglichkeiten für Fremdfirmen sowie die
+																Verbrauchsabrechnungen mit den Fremdfirmen und
+																Versorgungsunternehmen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Bauwasserversorgungsanlage 1/2+3/4&#x22;
+																	Wasch-u.Toilettenanschl.</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+					</BoQBody>
+				</BoQCtgy>
+				<BoQCtgy ID="IT10335800016" RNoPart="2">
+					<LblTx>
+						<p
+							style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+							<span style="font-family:Arial;font-size:10pt;">Erdarbeiten</span>
+						</p>
+					</LblTx>
+					<BoQBody>
+						<BoQCtgy ID="IT10335800017" RNoPart="1">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Vorbereiten des Baugeländes</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Remark ID="IT10335800018">
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Das Fällen einzelner Bäume bis zu 10 cm
+																Stammdurchmesser ist eine Nebenleistung ohne besondere
+																Vergütung. Die Leistung ist so erschöpfend zu
+																beschreiben, dass sie für alle Bewerber im gleichen
+																Sinne verstanden werden muss, so dass die Preise sicher
+																und ohne umfangreiche Vorarbeiten zu berechnen sind
+																(ggf. ist die Situation durch Planauszug oder gar Foto
+																zu verdeutlichen). Aus diesem Grund sind die
+																nachfolgenden Musterausschreibungstexte &#x22;Baum
+																fällen&#x22;, lediglich nach verschiedenen Standorten
+																gestaffelt, da ein und derselbe Baum zwischen dichter
+																Bebauung oder auf freier Wiese stehend, einen
+																erheblichen Preisunterschied für das Fällen und
+																Entsorgen aufweist. Im Verhältnis dazu fallen die
+																Preisunterschiede bei Staffelung nach Stammdurchmesser
+																gering aus. Dieses und die Variationsvielfalt bei
+																Staffelung nach Stammdurchmesser im 5 cm-Schritt sind
+																der Grund für das Abweichen von der üblichen
+																Ausschreibungspraxis. Die große Spanne der angegebenen
+																Preise beinhaltet alle Stamm-Durchmesser ab 10 cm bis 60
+																cm. Für das &#x22;Wurzelstock roden bzw. ausfräsen&#x22;
+																liegen ähnliche Gegebenheiten vor, wie für das
+																&#x22;Bäume fällen&#x22;. Auch hier hat der Standort
+																erheblichen Einfluss auf die anwendbare Rodungstechnik
+																und somit auf den Preis. Des Weiteren hat eine
+																Staffelung nach Stockdurchmesser im 5 cm-, 10 cm- oder
+																gar 20 cm-Schritten eine ebenso ungenaue Preisaussage
+																zur Folge. Aus diesem Grund sind nachfolgende
+																Musterausschreibungstexte gestaffelt nach zwei
+																Frästiefen bzw. nach kompletter Entfernung des
+																Wurzelstockes.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Hinweistext Baumfällarbeiten</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Remark>
+									<Item ID="IT10335800019" RNoPart="1">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>134.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Baugelände abräumen, von Sträuchern und
+																Bäumen bis 30 cm Stammdurchmesser, gemessen 1 Meter über
+																dem Gelände, Ausführung in zusammenhängenden Teilflächen
+																Abtragsfläche waagerecht, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Räumgut geht in Eigentum des AN über und
+																wird von der Baustelle entfernt.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Baugelände von Sträuchern u.Bäumen abräumen und
+																	beseitigen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800020" RNoPart="2">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Baugelände abräumen gemäß beiliegendem
+																Lageplan, von Steinen, Mauerresten, Zäunen, Schutt und
+																Unrat, Ausführung in zusammenhängenden Teilflächen
+																Abtragsfläche waagerecht, Räumgut geht in das Eigentum
+																des AN über und wird von der Baustelle entfernt.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Baugelände freimachen, von Steine, Zäune, Schutt
+																	etc.</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800021" RNoPart="3">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>35.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wurzelstock roden, Durchmesser der
+																Schnittfläche über 10 bis 75 cm. beim Roden ist sprengen
+																verboten, Ausführung in Teilflächen. Abtragfläche
+																geneigt, Räumgut geht in das Eigentum des AN über.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Wurzelstock roden, D 50-75 cm, sprengen verboten
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800022" RNoPart="4">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>57.068</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>214</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Gerodete Geländefläche planieren,
+																Stubbenlöcher mit vorhandenem Boden verfüllen und
+																verdichten. Das abgeräumte Material geht in das Eigentum
+																des AN über und wird von der Baustelle entfernt.</span>
+															<br />
+															<span style="font-family:Arial;font-size:10pt;">Tiefe der Stubbenlöcher bis 4 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>gerodete Flächen planieren,verfüll. der
+																	Stubbenlöcher</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800023" RNoPart="5">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>500.000</Qty>
+										<QU>kg</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Hindernis im Boden aus Stahl, aufnehmen,
+																Räumgut geht in das Eigentum des AN über und wird von
+																der Baustelle entfernt.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Hindernis aus Stahl aufnehmen und wird Eigentum AN
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800024" RNoPart="6">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>20.000</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Hindernis im Boden aus Mauerwerk,
+																abbrechen, Räumgut geht in das Eigentum des AN über.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Mauerwerk im Boden abbrechen und seitlich lagern
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800025" RNoPart="7">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>30.000</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Hindernis im Boden aus Stahlbeton,
+																aufnehmen, Räumgut geht in das Eigentum des AN über und
+																wird von der Baustelle entfernt.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Stahlbeton im Boden aufnehmen und wird Eigentum AN
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800026" RNoPart="8">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>5.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>212</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Hindernis im Boden aus Einzelsteinen
+																(Findling), aufnehmen, Räumgut geht in Eigentum des AN
+																über und ist zu entsorgen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Findling im Boden aufnehmen und seitlich lagern
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+						<BoQCtgy ID="IT10335800027" RNoPart="2">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Oberbodenarbeiten</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Item ID="IT10335800028" RNoPart="1">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>956.580</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>311</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>311</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Boden profilgerecht lösen, Aushub in
+																Eigentum des AN übernehmen und von der Baustelle
+																entfernen, Verbau wird gesondert vergütet, Aushub ab
+																Geländeoberfläche,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Aushubtiefe bis 4,00 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bodenklasse 2 bis 6,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abrechnung nach Abtragprofilen.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Boden lösen und beseitigen, Aushub wird Eigentum
+																	AN</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800029" RNoPart="2">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>25.000</Qty>
+										<QU>m³</QU>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Times New Roman;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Oberboden liefern, im Baustellenbereich
+															</span>
+															<span style="font-family:Arial;font-size:10pt;">
+															</span>
+															<span style="font-family:Arial;font-size:10pt;">verteilen und andecken.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Oberboden liefern und andecken</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800030" RNoPart="3">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>604.938</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Verfüllen der Baugrube mit
+																verdichtungsfähigem Material. Material liefern und
+																einbauen. Lagenweise Verdichtung.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Verfüllen der Baugrube</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800031" RNoPart="4">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>57.068</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Maschinenaushub für Einzel- und
+																Streifenfundamente, lösen, laden und auf eine vom
+																Auftragnehmer gewählte Kippstelle fördern. Aushub wird
+																Eigentum des AN.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Aushubtiefe: bis 1,25 m</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bodenklasse: 2-6</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Fundamentaushub, Bkl.2-6, f. Einzelfund.</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800032" RNoPart="5">
+										<LumpSumItem>Yes</LumpSumItem>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>psch</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>311</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>002</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>311</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Standsicherheitsnachweis für den
+																Baugrubenaushub auf der Basis der Ergebnisse
+																vorliegender Bodenuntersuchungen erstellen. Eine
+																Ausfertigung der Unterlagen ist auf der Baustelle zur
+																Einsichtnahme stets vorzuhalten, eine weitere dem
+																Auftraggeber vor Baugeginn zu übergeben.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Standsicherheitsnachweis für den Baugrubenaushub
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+					</BoQBody>
+				</BoQCtgy>
+				<BoQCtgy ID="IT10335800033" RNoPart="3">
+					<LblTx>
+						<p
+							style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+							<span style="font-family:Arial;font-size:10pt;">Mauer-, Beton- und Stahlbetonarbeiten</span>
+						</p>
+					</LblTx>
+					<BoQBody>
+						<BoQCtgy ID="IT10335800034" RNoPart="1">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Mauerarbeiten</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Item ID="IT10335800035" RNoPart="1">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>183.500</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Mauerwerk 4/IIa, für Außenmauerwerkm,
+																Wanddicke: 30 cm Festigkeitsklasse 4, Wärmeleitzahl
+																0,12, liefern und herstellen, einschl. aller
+																Nebenleistungen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Mauerwerk 4/ IIa</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800036" RNoPart="2">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>80.000</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Herstellen von Öffnungen beim Aufmauern
+																in Mauerwerk der vorgenannten Positionen, als
+																Fensteröffnungen, bzw. Türöffnungen, Leibungen gerade.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Fensteröffnung herstellen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800037" RNoPart="3">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>31.500</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Mwk 12/II für Innenwand. Wanddicke: 24
+																cm Festigkeitsklasse 12, liefern und herstellen,
+																einschl. aller Nebenleistungen. Als Ergänzungssteine
+																sind kleinformatige Ergänzungssteine zu verwenden.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Mwk 12/II 24 cm Innenwand*</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800038" RNoPart="4">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>15.000</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Herstellen von Öffnungen beim Aufmauern
+																in Mauerwerk der vorgenannten Pos. als Fensteröffnungen,
+																bzw. Türöffnungen, Leibungen gerade.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Öff. herst. als Fensteröffnung</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800039" RNoPart="5">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>56.500</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Mwk 2,0/12/II für Innenwand. Wanddicke:
+																24 cm Festigkeitsklasse 12, liefern und herstellen,
+																einschl. aller Nebenleistungen. Als Ergänzungssteine
+																sind kleinformatige Ergänzungssteine zu verwenden.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Mwk 2,0/12/II 11,5 cm Innenwand*</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800040" RNoPart="6">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>10.000</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Herstellen von Öffnungen beim Aufmauern
+																in Mauerwerk der vorgenannten Positionen als
+																Fensteröffnungen, bzw. Türöffnungen, Leibungen gerade.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Fensteröffnung herstellen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800041" RNoPart="7">
+										<Provis>WithoutTotal</Provis>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>332</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>332</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Tür- und Fensterelemente untermauern mit
+																HLz 12/1,2. Wanddicke: bis 36,5 cm, Höhe: bis 17,0 cm
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Türen/Fenster untermauern, d= 36,5 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800042" RNoPart="8">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>70.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Voranstrich an Übergängen Wand-Wand od.
+																Bodenplatte/Fundament-Wand mit EUROLAN 3 K, 1:10 RT mit
+																Wasser verdünnt, aufbringen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Verbrauch: EUROLAN 3 K ca. 15-30 ml/m²
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Voranstrich Übergänge</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800043" RNoPart="9">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>70.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>326</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>326</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abdichtung der vor genannten Flächen
+																gegen Bodenfeuchtigkeit mit Bitumenbahnen. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Untergrund: Beton oder Mauerwerk</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">- Voranstrich</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">- Bitumenschweißbahn V 200 S4, 1-lagig
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Abdichtung Außenwand, V 200 S4, 1- lagig,
+																	grundiert</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800044" RNoPart="10">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>342</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>342</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">KLB-Hohlwandplatten 8DF o. glw. für
+																Innenwände, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Steinart: 0,8/2, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Format: 8 DF, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Mörtelgruppe: II, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wanddicke: 11,5 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>KLB-Hohlwandplatten 8DF o. glw.</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800045" RNoPart="11">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>14.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>342</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>342</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonflachstürze zur Überdeckung
+																von Fenster- und Türöffnungen im Mauerwerk. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wanddicke: 11,5 cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Lichte Breite: 101 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Flachsturz, d=11,5 cm, LB 101 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800046" RNoPart="12">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>6.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonflachstürze zur Überdeckung
+																von Fenster- und Türöffnungen im Mauerwerk. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wanddicke: 24,0 cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Lichte Breite: 126 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Flachsturz, d=24,0 cm, LB 126 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800047" RNoPart="13">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>4.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonflachstürze zur Überdeckung
+																von Fenster- und Türöffnungen im Mauerwerk. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Wanddicke: 24,0 cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Lichte Breite: 101cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Flachsturz, d=24,0 cm, LB 126 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800048" RNoPart="14">
+										<ALNGroupNo>1</ALNGroupNo>
+										<ALNSerNo>0</ALNSerNo>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>2.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>344</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>344</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahltüren F30 mit Z-Zarge im Mauerwerk
+																einbauen incl. dem Herstellen und Vergießen der
+																Ankerlöcher mit Zementmörtel. Größe: 101/201cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>FH-Türe F30, mit Z-Zarge, 101/201cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800049" RNoPart="15">
+										<ALNGroupNo>1</ALNGroupNo>
+										<ALNSerNo>1</ALNSerNo>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>2.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>344</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>012</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>344</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahltüren F60 mit Z-Zarge im Mauerwerk
+																einbauen incl. dem Herstellen und Vergießen der
+																Ankerlöcher mit Zementmörtel. Größe: 101/201cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>FH-Türe F60, mit Z-Zarge, 101/201cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+						<BoQCtgy ID="IT10335800050" RNoPart="2">
+							<LblTx>
+								<p
+									style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+									<span style="font-family:Arial;font-size:10pt;">Beton- und Stahlbetonarbeiten</span>
+								</p>
+							</LblTx>
+							<BoQBody>
+								<Itemlist>
+									<Item ID="IT10335800051" RNoPart="1">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Der Unterbau der Bodenplatte, die
+																elastisch gegründet wird, erfolgt duch eine
+																geotextilverstärkten Unterbau. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Der vorhandene Boden muss einen EV2-Wert
+																von 10 MN/m2 aufweisen, Lehmlinsen sind durch
+																tragfähigen, verdichtungsfähigen Bodenaustausch zu
+																ersetzen. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Anschließend Auflage eines Geotextils,
+																300g, und eines tragfähigen Geogitters, z.B. Secugrid
+																60/60 o.gl. und Einbau eines frostsicheren,
+																verdichtungsfähigen Bodens 0/200 mit d=30 cm. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Der Boden muss einen EV2-Wert von 30
+																MN/m2 auf seiner Oberkante aufweisen. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Anschließend Einbau einer weiteren Lage
+																Geogitter Secugrid 60/60 und einer Frostschutzschicht
+																0/45, d=30 cm, der einen EV2-Wert von 100 MN/m2
+																erreichen muss. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Mit in den Einheitspreis einzurechnen
+																sind die seitlichen Überdeckungen der Geotextilien und
+																deren Umklappen an den Enden. Die erforderlichen
+																EV2-Werte sind durch Lastplattendruckversuche, die
+																gleichfalls in den EP einzurechnen sind, nachzuweisen.
+																Der Baugrund ist durch den Baugrundgutachter abnehmen zu
+																lassen.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Unterbau der Bodenplatte</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800052" RNoPart="2">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Sauberkeitsschicht, unter
+																Bodenplatte, Untergrund waagerecht, obere Betonfläche
+																waagerecht, aus unbewehrtem Beton als Normalbeton DIN
+																1045 C 12/15 </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Dicke 5 cm.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton der Sauberkeitsschicht, C12/15, d= 5 cm
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800053" RNoPart="3">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>57.068</Qty>
+										<QU>m³</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Streifenfundamente, obere
+																Betonfläche waagerecht, als Stahlbeton DIN 1045 C 20/25,
+																incl. Schalung, Bewehrung wird gesondert abgerechnet.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abmessungen: 60/100 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton des Streifenfundaments, C 20/25</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800054" RNoPart="4">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Einzelfundamente, obere
+																Betonfläche waagerecht, als Stahlbeton DIN 1045 C 20/25,
+																incl. Schalung, Bewehrung wird gesondert abgerechnet.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abmessungen:360/240/100 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton der Einzelfundamente, C 20/25</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800055" RNoPart="5">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>322</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Aussparungen mit Polystyrol-Blöcken in
+																Streifenfundamenten aus Ortbeton herstellen, Einzelgröße
+																über 500 bis 1000 cm², Bauteildicke bis 150,0 cm.
+																Ausführung gemäß Zeichnung.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Fund.-Ausspar., 500-1000 cm2, Polystyrol-Blöcke, d
+																	bis 150 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800056" RNoPart="6">
+										<Provis>WithoutTotal</Provis>
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Perimeterdämmung aus extrudiertem
+																Polystyrol-Hartschaumstoff Styrodur C unter der
+																Bodenplatte (INdustriefußboden) wie folgt herstellen:
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Extrudierter Polystyrol-Hartschaumstoff
+																Styrodur C, frei von FCKW, HFCKW und HFKW, umlaufend mit
+																Stufenfalz, WLG 035, nach DIN 18164 und
+																Zulassungsnummer: Z-23.1.2-287, Anwendungstyp WD/WS nach
+																DIN 18164 Teil 1, schwer entflammbar, Baustoffklasse B1
+																DIN 4102, Abmessung: 1250*600 m (Nutzmaß), Dicke: 100
+																mm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Liefern und im Verband lose auf
+																Sauberkeitsschicht verlegen und gegen seitliches
+																Verschieben sichern. Die Auswahl des Styrodur C Typs
+																erfolgt in Abhängigkeit von der zu erwartenden Belastung
+																der Dämmschicht.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Perimeterdämmung unter Bodenplatte</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800057" RNoPart="7">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bodenplatte d=25cm flügelgeglättet,
+																liefern und herstellen, einschl. 0,2 mm starker
+																PE-Folie. Liefern und Anbringen von Dämmstreifen im
+																Stützenbereich sowie aufgehenden Bauteilen. Bewehrung in
+																gesonderter Position. Bodenplatte mittels
+																Flügelglättmaschinen mechanisch glätten, Ebenheit nach
+																DIN 18202 Zeile 4 zur Aufnahme einer
+																Epoxidharzbeschichtung, in fix und fertiger Arbeit.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Stahlbetonbodenplatte flügelgeglättet</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800058" RNoPart="8">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>73.500</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Wand, Seitenflächen
+																senkrecht, obere Betonfläche waagerecht, aus bewehrtem
+																Beton, Bewehrung wird gesondert berechnet, als
+																Normalbeton DIN 1045 C 20/25, einschl. Schalung. Dicke
+																30 cm.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Wand, C 20/25, Stahlbeton , einschl.
+																	Schalung*</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800059" RNoPart="9">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>10.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Öffnungen in vorgenannter Pos. für Türen
+																anlegen, in fix und fertiger Arbeit.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Öffnungen anlegen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800060" RNoPart="10">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>100.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Brüstungen bzw. der
+																Unterfahrt des Aufzugs, Seitenflächen senkrecht, obere
+																Betonfläche waagerecht, aus bewehrtem Beton, Bewehrung
+																wird gesondert berechnet, als Normalbeton DIN 1045 C
+																25/30, wasserundurchlässig. Dicke 25 cm.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Wand,C 25/30, wasserundurchlässig,
+																	Stahlbeton</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800061" RNoPart="11">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonstützen aus bewehrtem Beton,
+																Bewehrunganteil aus BSt 500 S bzw. BSt 500 M: 140 kg/m³,
+																Beton als Normalbeton DIN 1045 C 20/25, einschl.
+																Sichtschalung und Dreikantleisten. Querschnitt b/d =
+																30/50 cm, h = 2,90 m.</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Stahlbetonstützen, C 20/25, Stahlbeton</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800062" RNoPart="12">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>20.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Deckenplatte Aufzug,
+																Unterseite Sichtbeton, obere Betonfläche waagerecht, aus
+																Stahlbeton als Normalbeton DIN 1045 C 20/25 25, einschl.
+																Schalung, Bewehrung in sep. Position. Dicke bis 18 cm.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Decke Aufzugsschacht, Stahlbeton C
+																	20/25, d=18 cm,</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800063" RNoPart="13">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>1300.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Deckenplatte EG, Unterseite
+																Sichtbeton, obere Betonfläche waagerecht, zur Aufnahme
+																eines Estrichs, aus Stahlbeton als Normalbeton DIN 1045
+																C 20/25 25, einschl. Schalung, Bewehrung in seperater
+																Position. Dicke bis 18 cm.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Decke EG, Stahlbeton C 20 /25, d=18 cm,
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800064" RNoPart="14">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>900.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Deckenplatte 1. OG,
+																Unterseite Wärmedämung aus 5 cm Styrodur C 035
+																Dübelmontage, obere Betonfläche waagerecht, zur Aufnahme
+																eines Epoxidharzbodens, Ebenheit nach DIN 18202, Zeile
+																4, Oberfläche flügelgeglättet, aus Stahlbeton als
+																Normalbeton DIN 1045 C 20/25 25, einschl. Schalung,
+																Bewehrung in sep. Position.</span>
+															<br />
+															<span style="font-family:Arial;font-size:10pt;">Dicke bis 18 cm zzgl. Wärmedämmung.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Decke 1. OG, Stahlbeton C 20/25, d=18
+																	cm,</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800065" RNoPart="15">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>100.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Randdämmung der Decken und Bodenplatte
+																aus 5 cm Styrodur C WLG 035, liefern und montieren.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Randdämmung der Decken und Bodenplatte</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800066" RNoPart="16">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>125.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Überzüge aus Stahlbeton, Oberfläche
+																glatt, mit gefasten Kanten, Betonwarzen und Grate
+																abgeschliffen; einschl. Schalung, Bewehrung gesondert,
+																Beton: C 20/25, Querschnitt:20/30 cm, einschl.
+																Wärmedämung aus 5 cm Styrodur WLG 035 einseitig 30 cm
+																hoch.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Überzüge C20/25, StB, glatt, 20/30c m</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800067" RNoPart="17">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>180.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton des Unterzugs, Unterseite
+																waagerecht, obere Betonfläche waagerecht, aus Stahlbeton
+																als Sichtbeton DIN 1045 C 20/25, einschl. Schalung.
+																Bewehrung in ges.Position. Querschnitt über 40/82 cm,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">1. Obergeschoss.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Unterzug, Stahlbeton C 20 /25 Querschn.=
+																	40/82 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800068" RNoPart="18">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>160.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton des Unterzugs, Unterseite
+																waagerecht, obere Betonfläche waagerecht, aus Stahlbeton
+																als Sichtbeton DIN 1045 C 20/25, einschl. Schalung.
+																Bewehrung in ges.Position. Querschnitt über 60/30cm,
+															</span>
+															<br />
+															<span style="font-family:Arial;font-size:10pt;">Erdgeschoss.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Unterzug, Stahlbeton C 20 /25 Querschn.=
+																	60/30cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800069" RNoPart="19">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>15.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Aussparungen in Unterzügen DN 300
+																anlegen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Aussparungen in Unterzügen DN 300</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800070" RNoPart="20">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>20.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Aussparungen in Unterzügen DN 100
+																anlegen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Aussparungen in Unterzügen DN 100</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800071" RNoPart="21">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>50.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Treppenlauf und Podeste, gerade, aus
+																Stahlbeton mit aufbetonierten Keilstufen für Natur- oder
+																Betonsteinbelag auf Tritt- und Setzstufen;
+																Laufuntersicht mit glatter Oberfläche, mit gefasten
+																Kanten, Betonwarzen und Grate abschleifen; incl.
+																Einlegen eines 1 cm dicken Dämmstreifens in die
+																Trennfuge zwischen Treppenlauf und Treppenwand; </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">einschl. Schalung, Bewehrung in
+																gesonderter Position.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Beton: C 20/25, Steigungsverhältnis:
+																17/30 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Laufbreite: 120 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Plattendicke: 18 cm</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Treppen C20/25, StB, gerade, d=18cm Altbau</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800072" RNoPart="22">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>50.000</Qty>
+										<QU>m²</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Treppenlauf und Podeste, rundes
+																Treppenhaus, aus Stahlbeton mit aufbetonierten
+																Keilstufen für Natur- oder Betonsteinbelag auf Tritt-
+																und Setzstufen; </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Laufuntersicht mit glatter Oberfläche,
+																mit gefasten Kanten, Betonwarzen und Grate abschleifen;
+																incl. Einlegen eines 1 cm dicken Dämmstreifens in die
+																Trennfuge zwischen Treppenlauf und Treppenwand; einschl.
+																Schalung. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bewehrung in gesonderter Position.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<image width="267" Type="image/jpeg"
+																Encoding="base64">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRof
+																Hh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwh
+																MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAAR
+																CAEsAQsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+																AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+																FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+																h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+																5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+																AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+																NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+																hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+																5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKA
+																CiiigAooooAKKKKACiiigAooooAKKKimIWJmLBQBkknAAoAlorIN7LcRKdOaN16GaUMRjrlR
+																gBx7hgPem6NMsscjJfzX37xgZJEUBf8AZUqoBUevP1NAGzRRRQAUUUUAFFFFABTV+6KdTV+6
+																KAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUh5BoAWkb7pqlc3At49
+																8gkIyBiNCxyfpz+NULgtPbb71pLG2J2lRKNzgjG046H/AHTn0PagC9PcMjGKJDJOVLIGDKh+
+																rBSB/Os2aYRskOoMt7cS/PFaRxKQCpzkZPGP7xIH0qxCjeRHb2KNBamLCOBtePHTCMpH4nH0
+																NWLKxhsQ3koQ0jl5HY7mdj3J60AQG1kvgpu98Sj71vHJ8jemSACeOq9PXNW7aBLdEiiVUjQY
+																VVGAB7DoKu0UAFFFFABRRRQAUUUUAFNX7op1NX7ooAdRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+																FABRRRQAUUUUAFFI3Kn6VjNqLzERaagnyxDTk/u4+M5z/GfZT65INAGu5wjHngdqykup70Hy
+																45YYWU/v3+Vh6bVYfX7wHTvVSV7X+0ba2vAl3qwV5rTzYdqqQOdrhTtHPqTg96upbTTbvtzp
+																IjYxAE+Vecg5PJPvwOM4oAybW9trjVJ7PSz594I1klu5wWUoScbW/jGQflBAHYitqC1AlSS4
+																AnuFJxK6KCoPYY7cfX1rOtVC+O7pQMAafHwBgffaujoAKKKKACiiigAooooAKKKKACiiigAp
+																q/dFOpq/dFADqKKKACiiigAooooAKKKKACiiigAooooAKKD0qleXcFlB5tzJ5cZO3PJJJ6AA
+																ck0AXDwDWe1/BFIkLSAyuRtRQWOCcA4GSF9zxVaRrq7t5AGl05AQwlJQvgfeypBUD/HtUVnJ
+																FOS+n2+yGfLNd7du4kcMoIJY5AznHbrQA28tZLqMS6k222jYMbaAM4Y5/iIGWGcHgD3yBTxD
+																e377XEljajaQqMBKxBOQSOFHsvJ657VStomt/HQjMs8u7TS7GR85bzR26Aew49BXV0AcrcQR
+																2/ivQYYEEcSJcbUVcADaOPpXVVz2pf8AI56F/wBc7j/0EV0NAHPwf8j5d/8AXhH/AOhtXQVz
+																8H/I+Xf/AF4R/wDobV0FABRRRQAUUUUAFFFFABRRRQAUUUUAFNX7op1NX7ooAdRRRQAUUUUA
+																FFFFABRRRQAUUUHpQAUyQhY2ZiAAMkntWa98jTPDAwluFBPlgkAexbB2nnvVW/EEREl7JNM/
+																DR2qgH06KOuD3NAEgv7m/jP9mqCjghbqQfuwfUDq3P0HoTUUSxSEvast7eLgNNKx2gHrggY6
+																j7o/Sp44Lm5dxdiNLUpt+ygbufUtj07D361S8GqF0FMcDz5uP+2h4oAzvEiXMVxp4mnMrst0
+																ThQoH7g8AemfUk810Xhz/kWdM/69Yv8A0AVjeL/+P3TP9y6/9EGtnw5/yLOmf9esX/oAoAqf
+																81C/7hX/ALVroK5//moX/cK/9q10FAHPal/yOehf9c7j/wBBFdDXPal/yOehf9c7j/0EV0NA
+																HPwf8j5d/wDXhH/6G1dBXPwf8j5d/wDXhH/6G1dBQAUUUUAFFFFABRRRQAUUUUAFFFFABTV+
+																6KdTV+6KAHUUUUAFFFFABRRQelABSHoaq3NzFawPPPIscSDJYnpVEXF7d820f2eFj/rpRliP
+																Zf6n8qALNxewWoAnkwzdFAJJ+gHJqiTd3UEkt28lpbEEGJBukI9yM447Dn3otkENy/2aCSWR
+																3/fXMvy89DjP8gAK5zwpPdXniy/N7eS3LQqypv4CjeRwBwOMdOtAHS2kUjWwhtoZLKAABZON
+																7Y9jnAI75z9Kt2lpFbOQiEsfvO53Mx9Se9aNFABXPeDv+ReH/XxN/wCjGroa5/wd/wAi+P8A
+																r4m/9GNQBR8X/wDH7pn+5df+iDWz4c/5FnTP+vWL/wBAFY3i/wD4/dM/3Lr/ANEGtnw5/wAi
+																zpn/AF6xf+gCgCp/zUL/ALhX/tWugrn/APmoX/cK/wDatdBQBz2pf8jnoX/XO4/9BFdDXPal
+																/wAjnoX/AFzuP/QRXQ0Ac/B/yPl3/wBeEf8A6G1dBXPwf8j5d/8AXhH/AOhtXQUAFFFFABRR
+																RQAUUUUAFFFFABRRRQAU1fuinU1fuigB1FFFABRRWZdalDbOYwXmnxkQxjcx4J/DoeuOlAGn
+																WNc6i7SSwWCfabmM7W5xGjYyAx/wyfpUFy03mF9RuRBbYwltG2WcgkkkjkjaB8o9TmqqyzS6
+																z/YcafYrcQGYPC3zMqsq49sg/XjrQBZnaGO7j8xDd37YXy1JZY2xycH7gPP196raa9zqupX1
+																vqZVhamPbFGTsywJIP8AexxzW7a2sVsgSKNUGf4RjuT/AFrM0f8A5GfX/wDeh/8AQTQB0Fef
+																+C/+Rs1n/gf/AKMNegV5/wCC/wDkbNZ+r/8Aow0AegUUUUAFc/4O/wCRfH/XxN/6Maugrn/B
+																3/Ivj/r4m/8ARjUAUfF//H7pn+5df+iDWz4c/wCRZ0z/AK9Yv/QBWN4v/wCP3TP9y6/9EGtn
+																w5/yLOmf9esX/oAoAqf81C/7hX/tWugrn/8AmoX/AHCv/atdBQBz2pf8jnoX/XO4/wDQRXQ1
+																z2pf8jnoX/XO4/8AQRXQ0Ac/B/yPl3/14R/+htXQVz8H/I+Xf/XhH/6G1dBQAUUUUAFFFFAB
+																RRRQAUUUUAFFFFABTV+6KdTV+6KAHUUUUAczq+s/YpZVSfZDaos93sG6XaSQiIvcsVYevHqR
+																VW11NFW7sdKtmjNnAkr3FyOZFfLAgdWJ+c5OMHtzW7LplncX8F7LaxvcQ58uQjlc1jkf8VF4
+																n/68Lb/2tQBf0Ei80uw1OdUa6urWKSSQL1OzP4feNREf8V+n/YMf/wBGJVnwuP8Aik9G/wCv
+																GD/0AVXP/JQF/wCwY/8A6MSgDfwKwNH/AORn1/8A3of/AEE10Fc/o/8AyM+v/wC9D/6CaAOg
+																rz/wX/yNms/V/wD0Ya9Arz/wX/yNms/V/wD0YaAPQKKKKACuf8Hf8i+P+vib/wBGNXQVz/g7
+																/kXx/wBfE3/oxqAKPi//AI/dM/3Lr/0Qa2fDn/Is6Z/16xf+gCsbxf8A8fumf7l1/wCiDWz4
+																c/5FnTP+vWL/ANAFAFT/AJqF/wBwr/2rXQVz/wDzUL/uFf8AtWugoA57Uv8Akc9C/wCudx/6
+																CK6Gue1L/kc9C/653H/oIroaAOfg/wCR8u/+vCP/ANDaugrn4P8AkfLv/rwj/wDQ2roKACii
+																igAooooAKKKKACiiigAooooAKav3RTqav3RQA6iiigArlD/yMXij/rwtv/a1dXXKH/kYvFH/
+																AF4W3/tagDU8L/8AIp6N/wBeMH/oAqsf+SgL/wBgx/8A0YlWfC//ACKejf8AXjB/6AKrH/ko
+																C/8AYMf/ANGJQB0Fc/o//Iz6/wD70P8A6Ca6Cuf0f/kZ9f8A96H/ANBNAHQV5/4L/wCRs1n6
+																v/6MNegV5/4L/wCRs1n6v/6MNAHoFFFFABXP+Dv+RfH/AF8Tf+jGroK5/wAHf8i+P+vib/0Y
+																1AFHxf8A8fumf7l1/wCiDWz4c/5FnTP+vWL/ANAFY3i//j90z/cuv/RBrZ8Of8izpn/XrF/6
+																AKAKn/NQv+4V/wC1a6Cuf/5qF/3Cv/atdBQBzuqf8jjoX/XO5/8AQRUHiWfWw1pbaRKsDTbg
+																bhow4BAGF54G7nntirGpf8jnoX/XO4/9BFHi9mTw7IUYqfOiGVOP+WgoAxbbS9T/ALYa4bxL
+																cQXskaxFZLKIZUMcY7HvW1/Y/iD/AKGl/wDwBip8ukoUITfLEvzLbueAw6FWPK81Rl8QJo8W
+																bo3Urb1XyXA8xVJ25H9/n+dAFv8AsfxB/wBDS/8A4AxUjaP4g2n/AIqmT/wCirQjvlku/syp
+																KJNnmMWXhR6E+tMk1CJNQhssu8zgnCjO1R3b0FABplpqFsX+26o17uwVzAse3/vnrWrWZcah
+																FZyQwMWeaZsJGgyx9T9PeludRhs0VpS252CJGgyzH0A70AaVFZlvqEU+pPbxszvGPnIHyqfQ
+																n19q06ACiiigAooooAKav3RTqav3RQA6iiigArlD/wAjF4o/68Lb/wBrV1dcof8AkYvFH/Xh
+																bf8AtagDU8L/APIp6N/14wf+gCqx/wCSgL/2DH/9GJVnwv8A8ino3/XjB/6AKrH/AJKAv/YM
+																f/0YlAHQVz+j/wDIz6//AL0P/oJroK5/R/8AkZ9f/wB6H/0E0AdBXn/gv/kbNZ+r/wDow16B
+																Xn/gv/kbNZ+r/wDow0AegUUUUAFc/wCDv+RfH/XxN/6Maugrn/B3/Ivj/r4m/wDRjUAUvF//
+																AB9aZ/1zuv8A0Sa0PDsqnw5pyhwXW0i3AHkDaMZ9Kz/GH/H3pn+5df8Aok0mnQu2h6VLHbbw
+																LOP54X2yr8oyR2PHHrzQBc2sfHokw2z+zdu7HGfMz1+ldC33TXOWWrTGMSSHz4cE+dEuCgzk
+																b06jAzz0rat7iO4ijmhkEkbjKsp6igDG1BXbxdojqG2rHcbiBwMqMfSk8YZPh5xycTRE+2JF
+																yfpXR4FRzRpJC6OqsrKQQRkEUANUqQCrAg8jntVLVNMstUtWhvbZLiM/wkc+vGOagazuLCP/
+																AIlrblUcW0h+X6A9u/4mpo9RjmbyTuhuMfclGD6ZHrQBgSeCdHvYSUs2tkYBkYSyCRW9CC2M
+																U1fCeiW9x/pejxDdx9ojlfBA/vZbit/S4roSyPeon2gHZ5qniRB0OOxrSljSSJkZFYEcgjIN
+																AHPjwP4bZxL/AGahbGN3mPnH/fVDeBPDLMrHSkLL90mR8j6fNVo2VxaAPYS7QG+eGQ5UjuB6
+																Gs4eINZ+1m2GgEzBd+wX0educZNAF208HaBYXK3Npp6xTK28MJH6+vWtwferl4Ne1u7RZIvD
+																jMhPB+3R8/mKSDXdemdhH4akKqRh/tse1uOxoA6yiuVi17W5JZYk8POXjI3r9tj4yMjt6Vsa
+																Zd3F3GTdW32adThovNV9vpyPrmgDSooooAKav3RTqav3RQA6iiigArlD/wAjF4o/68Lb/wBr
+																V1dcof8AkYvFH/Xhbf8AtagDU8L/APIp6N/14wf+gCqx/wCSgL/2DH/9GJVnwv8A8ino3/Xj
+																B/6AKrH/AJKAv/YMf/0YlAHQVz+j/wDIz6//AL0P/oJroK5/R/8AkZ9f/wB6H/0E0AdBXn/g
+																v/kbNZ+r/wDow16BXn/gv/kbNZ+r/wDow0AegUU1yFRmJwAMmsNNbREjlnC/ZZG2pcRNuTk8
+																BvT8aAN6uf8AB3/Ivj/r4m/9GNWwr9OSRjsapaTp66ZYfZo5TIokeTcRj7zFsfrQBjeL/wDj
+																90z/AHLr/wBEGtjw6B/wjOmnA/49Y/8A0AVDq2kLqklu8k7RGASAYXOd6FT/ADqe2gfTdJht
+																oFacwQoijcF34GO/FABd6dHcgskhhuMYWePhgcYz78etcpq+pap4S1NL/wDs83tlcItuI7Vw
+																n73PDlT0+UHOOK6+1u4rpiqpIrp99JF2svpke4rH8WzRWw0aSV9qf2pDyfUhqAMKPX/E9zAy
+																f2YyS3Dhlm+1xiMRYz+6Pc4I5Peta41HxSbRktPD7ibAVXlvYyB6k+tdG0MPkCPyVaLOQgUY
+																9elVIbS5smRbabfagnMcpJKjk/K35YBoAyV1LxPDYCKPw+8kyrgSzX0XzH1OKrLNrv2GNLvw
+																415IreYHe9jyG65GOg/pXTWt/Bdy+WjFZFxvidcMueRkdq0MCgDmdDvNW2sNZs3hlkcnKyrI
+																i8dsdAMdT1rfilWQLtYMD0IOQfxp8kamNhtU5GOlZMmnyQbpNOl8iXI+RuY2/Dtx6UAbL42m
+																s37BtjKR3EySFs+bkFj6A8cj2pItQY3CQ3MUkMrD5QeVb6EVLYtHKGlineVHckbjwPUD2oAq
+																y3tzp+37anmRFgoniGepwNy9vr05rQtjEUTyQnl4+XZjb+lTy8RkgZPasltOZHWaymEEg5ZA
+																Pkk4xgjt25HvQBsYHoKYsaKzMqKGfliBgn61jaRraatYQTjKyyxeYYuuBkj+Yq1YX4v1kkWG
+																RIQdsbtx5o7kDrjPrQBp0VT+0IFlzKo2E7/m+6MZ59OKkDr5yKWXLAkDPJ9ce3T86ALFNX7o
+																p1NX7ooAdRRRQAVyh/5GLxR/14W3/taurrlD/wAjF4o/68Lb/wBrUAanhf8A5FPRv+vGD/0A
+																VWP/ACUBf+wY/wD6MSrPhf8A5FPRv+vGD/0AVVb/AJH9f+wY/wD6MSgDoa5/R/8AkZ9f/wB6
+																H/0E1rSzLFGZJJAiDqzHAFc3pGpWC+Jtcdr2ABmhxmUY+6fegDrq8/8ABf8AyNms/V//AEYa
+																7P8AtbTv+gha/wDf5f8AGuB8H6jZx+KtXLXcChi+MyqM/vD70AelHgGuK06x87VdbMMhiK3q
+																gpjMbrsB2lTxg57V1J1bTsH/AImFr/39X/GsTw3LFNqeuyRujxm8GGU5H3BQA9Bc6dKCZY4V
+																c7fId8xuepZT1HcYNNn8VwW1+bCTTtTe6EYcpBatIMfUcEV0csUcsTJIiuhGCrDINcJ4qH/C
+																P6dPNpVy1jcTAlmbJWQ5HRjnDAdB09qANOTxjbrcRwnTNYEsmdiGxfLY5pIfGFtcqfJ0zWJA
+																jbG2WLkbh1FXFhNv+/Nq1wrwrE06EtLgDuOO5/hq9prWZs40sTGYUGFVO3+cUAYEviezv5Xj
+																TT9cE9scForNwyFucenQY5rD13xNeXU1ha2Wi6pdXtnPHdSFrNkBUFhjHY88V39paQWkPl28
+																QRdxY7cnLHqcnqaILS3tpJXijCvM+9265bHqfagAs7hry1gneKWEyAN5Uy7XX2I9aut901lS
+																R3tu7Pby+fHnJilOCM5OFb8gAfzqW21CKaYQHdHcAE+TJwwGcZHqPegBbixguGEhBSUD5ZU4
+																cfj7e9czH4vvTM8MGhXMkSTGBLiS5jQSMpxxk9eK6e+mmt7Z5VEYC4Zi+eB36d6wfCSpf6HM
+																zJmJ7ydtkiYP3zjg9DQA271HxK0qSwaFMoQEiI3kQVyem45ziiHVPE0Lqv8Awjcjx7SzM99E
+																X3H056VsC0ubQj7HLvjH/LGVsgD2bqPxz1qWx1KO6IjlRoLj+KGXhh/j+FAGGL/XXs3iu/Dc
+																027JJF5EvGcjo3arWl6hqZE8+r6c1hHtHzG5SVPQYC8iuk2r6D8qbL8sTFQM4oAhgcSqGVw6
+																E8MDkGrGB6CseSwdd8li4tZtvAA/dsfdfT6etOXU/JcR36G3YkBXP3HJ4GG7Zx0PNAFXwUB/
+																wiOn8fwH+ZrVvxcmzkFm0aXBGEeQZVffHfAzxWT4J/5FPT/9w9fqa176d7a0kmjgeZ1Hyxxj
+																ljnAH/1+1AHMQzQWNoHh3XFvcqyCN48zXsxONxJ424HXpg9gBVmOH7NHcX2ozoJXgkWW7jkA
+																W1AwAifmeccleewpsaSwCTUbq+thfRsPtMkgJS2ixuKIPUgjnvnPoKht7dX+yv8AYZBaxyr9
+																ksVHzDOT58ue/BIz3/2jwAbOhtMbJd1s1vAPlt43YmQRgDaXz0J54+mec1rL90VmaVdQ3Jn8
+																iWWaNJnUSP8AdYk5IU9wudv4Y7Vpr90UAOooooAK5Q/8jF4o/wCvC2/9rV1dcof+Ri8Uf9eF
+																t/7WoA1PC/8AyKejf9eMH/oAqsf+R/X/ALBj/wDoxKs+F/8AkU9G/wCvGD/0AVWP/JQF/wCw
+																Y/8A6MSgBfEGkjWLKO1OxlWVXaKTOyUA8q2OxrIj0bSbSTyl0axHBxb3FtHnH+w+MHgd/XrX
+																a4HoKgurWG7t5IJ4w8TjDA0AYFlo/hy7wP7F0+ObA3Qvaxh1PoRitL/hGtB/6Amm/wDgIn+F
+																ZOqWl7ZWJuLSH7fNaxk2wY/vQwHHPG73z+tZtx48J0mN7fT9T89mEUsrWEmyJ+jZGOcHsKAO
+																nPhnQcHGiab/AOAkf+FRtolrFDjTlj09x917dAoBzzlRgH0rKn8WSR2G610jWbiYgBc2EiqT
+																6njpVePxVffardH0zVfJVMzTDTJMyN6KP4R70AdFHdXcbiK6hPJ4mjO5Px9PxrI8YzW7+HLy
+																2kaF3eHzI1YZ3YYcj6VBeeK5nmght9H1dITzNLJp0hAH90Ljkn8qx9cvWl0aSw0vQdXkeYhI
+																0msZFSAZ5KkjI4J9voKAPRYQBAuAPuj+VVp7bzNzxSGCUkEyIoy2Om71HtRaTxzRIYZRIAAD
+																tOcdjmrrAbDx2oAyrS9YX4065kRrsR+aPLU4aMHbk56HOeK1GGEOB27CuN1KSZPHUG0jym01
+																vOVVLSOvmgYUD1z17da3N1zp6QwxLJc20SYL790ox3I/iGPxzQBImoRzi4MSyv8AZyUfahO4
+																jsvrS3S2ktkLi8wiIobzJBtKDg9eoqVRDcSR3GG3qvyqSQV3DoR6/WljtYAHjKB0Z95V8sNx
+																Oc8+/SgCjBPc29/FbtMtzDMN0TMQJAAOSexHI6c81F4QA/sy64H/AB/T/wDoZrfbhTjisZLG
+																TT2kOnsNkrmRoJOBuPJKnt3OOeT2oA2sCqOp2sdxYSqbUXDhTsTdsOfZv4fqKitNSSd4o5Q9
+																vO+cQyjDHHXHr9a1KAPOH8J2FvayrfvewYAllulupdi5P+rTL8/XmpbTw1p88kksvmRSGMND
+																ZyX02Vjz958N1P6V3skMUwAkjRwCGAYA4I6Gmm2gxITBHmQYf5Blh6H1oA56PwbobkEW87KR
+																nIvJsH/x+nXHgbw/JAyvZzMp6hruYj/0Oo7ie6+2QxwwiO+AZYbdZMxxR9PMcD+VLBfQ2Gnp
+																Kl3POPMZSHQl7qQnjZk8DOegxj0oA3rK3htIY4IIxHHGNqqvQCotWyumTk3S2ihctOQDsHc8
+																98Z57e9Yw+3QK15dTIJJQRcSLNtS0jAOAo5y3PXHUH2FQWm28ktBdLKmnRnFrFKSd5XHzyk9
+																Cc/Kp9z1HAA/e+pSxzXUkcaqhlsbS4O3zGHAlkxz1IwMcdevSrqIudTllXS1EENwIxeXiKzy
+																SKy4QRgc7ASpY8DG7HOSLNvFJrFzDfSwJLHGwYEfKjYz0yNz4YblJAGH4yQK27LTobZ2lG6S
+																4kRRJNIcvIFGBn0+gwOT6mgCPSYfs6NutEtdxUrErZ2ARquCOgxtI+XjAz3Naq/dFOxTV+6K
+																AHUUUUAc9rl7q9msJ0u1t7pSGaYTSsrIAMgqqqS3PHHcisZbLxS+o6ndrHo5N7DHA6C5k/d7
+																N/P3OSd/6V1NzaQ3BVpIx5i42uOGHzBsZHbIBx0OOayFs7qxbzH82RlGWurZcO+Of3kf8RO1
+																FyvJ5+6KAK2mweLtO0u0slg0ZxbwJCGNzKM7VAzjy/amCz8V/wBujUfL0beLYweWbmXoWDZz
+																5ft+tXxrctrEz3VvNdR79iT2MDTCTAwxKrkrhgRg5HTmoZvGljD5e/T9YRpGCLnTZhuJ6AfL
+																zQBaWXxaXXfa6MEz82y6lzj2zHV6HUozIIrgPBNnhJeh+hHBrFufG1naxs81lrEUYwN76bMB
+																k/8AAaa3iywuHNpLpusO5XeYm0uY8Z6/doA64gYOQK43wo16H1FHjiks5LyYqw4KHPQjuD6i
+																opPF62U8VvbWGruu0lbZ9On8xgOSQxHP0OPrSeDNWuZLq8srrSr6zElxJPE89u6BlJ6HI60A
+																b72EkLJLYt5B5zAw/dv7f7P4flT11MK6pcxtbyk4G/7rf7rdD06da1sAjGBio54Ip4XiljWS
+																N1KsrDII9KAGqwZwc59D71KVAU4Arl9Sv5dBuLTyYp7qOXMENrEUUDA3FmZ2GeB6/nUdv4i1
+																ueR3XwzcPbFQY3S9tyT9fnx6UAbd1ZfaQ/kyy28rEFpYNoZsdiSDxTFuruKfZcWzeUWwksR3
+																cEjG4YyO5J6D1rGuNU8QzNEyeH7+KNX3uEuLYlx6ZL8CiDV/EA3vP4avS79I1vLdkXHHHzA/
+																WgCTEEnxChlYRsy6ZiNjgkEyYOD/AIeldQwCqxAGetcXaR3cesNfN4PnV3CIjGeDESg5zjzC
+																M5OeAD9a6a2v4buYojsrqctG42sPTIPPI5+lAEdzYRyzecmYZu8kfDHp17Hp3/CqGo6rqOh2
+																jTy2Rv0U4L27Kh/FWI5J4ABNdCwG0nHIFZepXF3GFgsoi08vHmsp2RDuzf0HegDHbxXqP2n7
+																IPDV6ZvL8xl+0wfIP9o7uPxptx4p1KzaFZfDV4WmcJGiXUBLH2Af9aJora0slUypd2lwASuS
+																ZbuXPGSMccfTFTQhbaWa4v2dJzCS91HgR269BGhPf8OaAIH1i/vmkjfwvcyGNsHF3BuQkeof
+																IP0qXT9R8QpqKQyaJcixYYMktzCzxnP+yxyP1+tbGmXU13CJpoDCrH90H+8y+pHYn0rUwMYo
+																AYpO7n/9VPb7poI46VWnuY4Ii8rhVAySxxQBz91Db2EM4mW6BllVhIsg8y6fqEGOcdscdPSo
+																EeVdQVpriFdXJQbJAWS3jbnYuOrkD8aY8sslyLkzh7yYtFAURm8oYyDGCADkdWOB07Vo2Wjb
+																Yk+1tM0vO52ly8gJBAZgBjBHReKAMuW0k12/gDhl06OQtNa2wULJIcgtI44OD/CuTkg5rbt9
+																BtcQm6VLpo33qrRgIr8ZYL65GcnJznnmtS3hSBFjiRUjXgIowB+FWKAEwKMD0paKACmr90U6
+																mr90UAOooooATA9BRgegpaKAOQ8ZR3EWiXGoWl9d2dzbRna8LDDDI4IYEH1z1461XuPCV6dS
+																gvY/EmqsUUpiRosqCfmZSIiM4z25z1rU8cqx8F6oI2Cv5JwSM81esTeG3H9oRBJ0YqWjI2v/
+																ALQ9AfQ9P1oA51fDseo3Mbt4j1kzW7blSR4gyHnkqYvY4yPetT/hGLn/AKGbXP8AvqD/AONV
+																tT26S4cgLIoISQKNyZHOCelZcl1d6YrS3RFxaoNzTJw6gd2XoeB1HJ7CgDOj8ISQXc10viHW
+																hNKAGcyQkkDoP9Xx9BUkPh64tbtr6DVru6vBH5afbijIBnPRUGPqKWLxfYyxq6afrTI4BVl0
+																ufkH0Ozmln8Z6dbwvNNYazHEoyzPpc4A/wDHaANGHU1EqQ3aNbyMdq7z8rn/AGWHBPHTr7Vr
+																N90/SuTbxTYXcW2TS9YliOCAdJnI9Qfudaow6+mnIEsbPXJoSS3k3On3LHn+6xUn14OevUUA
+																autup1/w8MjJuJO/ONhq5daaxu47uzkEE6sS4C/JMD1DD16fN1Hv0rBmdL3WPDuoSQ3Ecstw
+																5VLqEJJEDGQVwQCBxnHNdvgegoAyItSxOlreRmC4fPl90kwMnDfnwcHA6VoxsH2kYKnBB9u1
+																OljVoXQqpVgQVIyD+FcZoZ1GO81RIZA9rY3MkVraI4y/AwGLdFG4459fTFAHbNwpI649KzLy
+																yg1Dyi26OSF98csZw6nvz+HIrIuNRuGMyx3bxW8D7ry74cI3/PGPjk9skHGe5NWbrU7mOX7N
+																bFJLmeNWiR0KfZ07tJk5/Djnj3oAvrPc28bm7KyqpChoUYls9cr2x9TxzVsMG+6QfXHrVCya
+																8SYwTEywoi7bh3G+Z+c4UDgD/PrTJLVfNuI7IvaXEiDMqxkp15xyFLe/WgC01nA179qMI8/y
+																9iuSSVB6gen1qNdJslghh+zoIoX8xVJON3qfU/Wi5vGt1WCHbPdlcxxM4UsBwST6DvgVl3Nz
+																LqnmQxF0sY+LmaEEmUjqkeOT7n8PoATX2pNN8lnOIbccz33BVADjap6Fv5US6vdxn7OsCG8l
+																JEEfmbjsH/LR8cAd6lnmtLK1+zyeS6DH2a3WDLLgZC7c8nv2rK06O4lluUCieeTi4dmKtnGR
+																lwflx02ruxmgCaTU2hQWp1CZ5rdg1zI0YRSD0G48Bc/UkVaitpdSla4kEsT7Vx5i7kHXJRTg
+																g/7RH0q5a6RbRyKzIHwdyxsAUQ/7IAA685OT71rBQOgH5UAZ+n2UNkNkaktgBpH5d/8AePet
+																DaM5wKMCloATAHQUtFFABRRRQAU1fuinU1fuigB1FFFABRRRQBj67pj6to11YrL5ZmTaCRkA
+																/nVi0kuJraOS4h8iY8PHu3AHOOo6j/PFX8CjA9BQAtZXiEAeHdSOB/x7v/KtWsvxD/yLupf9
+																e7/yoAy9Otb06fp10sqrIluirFvYxsu0dcAYY+pzjtWn9pt55/styE8zg+XIvDEc5XP3gPUV
+																NpCqdFsDgZ+zx9v9kVYmghmj2TQxyL1w6gjjp1oAjmhSePa+7AYNhWI5HuKh+yQC+N35e6fb
+																sDnJwPbPA/DrxVC6u7rRrae7uHN1ZxkyMcYkjX0A4DAc+h9jVOXxxpUKrJLb6uiOQqs2lXGG
+																J6AHZQBr3dhFeTW8rGRZLaTfG6Yyp6Ec560kd7cpMsFxA6FzhJIjvjPU8nGV4HcAemax28ca
+																b5sirb6tuiXc6HS7jKj3+TgcU+Pxfp1xbhhp+sSxuvbSbhgyn/gHegDo0femQcqR1z2riNLj
+																mvNW1u2t4/s//EwkE98UAbYQp8uM9ye57fWo5/FlpZbrnSYtRWGF9lxbz6bciIdP4hGShHGA
+																BjnGB1rQ8MRjUYbzUL3T7q23ahJPbxXkbRsBgANtP0yCentQBYmb7LJZW2nQSR3yxMkNo0mI
+																olzzLJtJyOOMk5z65Igt7mKxt2njcXdtOzLKzxlpr2Y/KAoIC7fTGRgH0rZttOjtlLwzTedJ
+																L5ksxZS0pH8LHGNo6YGMAcd6eunx/wBpfbnZ5ZSmxAxBEYPXaOxPc8n8KAM600y6ZlupzGLp
+																18sLG/FpHjG2Pggt0ycc49OugskGnLa2RmkMkgKxbizscckk+nqT+lOttPgs3jFrI8UalmMS
+																nIkLdWYkFieOuazrpo8XNpbT3dxcXL/vGSXiIYyATjCAj0GTnjJoArTyNqBdFnjSGMFLy/jU
+																RmTHJjQkn8Tk47c1FFLdO6x28UlpIseyKCCVZNiHlWCj5QSONznAPrTrPTbmSSNgPIhVl25T
+																b5aAcJGhztPXLNhj2HNdFaWkFqAsEe3cQWbJLN/vE8n6mgDOs9DjhuLmRhGUuCrHbGVlJH9+
+																QMd/0wB2raghjhjWOKNURRgIgwFFTYGc4FGBQAbRnOBxS0UjZ2nHWgBaK5zXLzVItQ02y0y5
+																gga5aTfJNAZsBQDgKGX19aqbPFSXsdudXtCsiFhKNJYoCOxPn8H69aAOuorj71PFdqiyN4h0
+																iOPeod5NOdAATj/nscnOBj360uof8JNp2l3V9Lrtg6W8LTMiaU25goJIGZ+vFAHX0VyiQ+J5
+																YEmGvaeisu4BtLYYBGecz0y0i8U3JM6eINIkt3w0EsWnuQ6kDk/vscnOME8AfSgDrqav3RVS
+																0M3lxCeVZJVUCRkQqrNjkgZOB3xk/U4q2v3RQA6iiigAooooAKKKKACqt5apfWU1tKWCSoUb
+																acHBq1RigDK02yXT08hJriZcKA0z5wAMADAAHTtWrSYFLQBi+KgB4W1PgD9w1Z0NrLII7m8n
+																VLhYP9FcRM0NuoA+YngFvqR7VpeK/wDkVdT/AOuDVhxNHPBbQ3Szw6cWVVhkDtJdSYz0OSEH
+																p/IUAGI76EfIHtHOY4ztjk1GQDqeg28Z98enW1LPPeXElvZl4JAgF7PE7OsWB/q4weC+PQcc
+																Z5wKWeWW8vPsVrJCZkJjnvY4gvkITny1yTl8Y74HXHamAtZm3tra1eO5XcttZCfgr0MsuPx6
+																k9emegBoW91Z6eLKxtrd8yKGWFVwyJ3d84x178k+pqZxHq0TKDFPYTJhnjmILHPT5e3XPzfh
+																UFra2ul27NdzJLcXTbZppsZmY9FAPb0X0/Onz38Vk0cMItvLiZRMWlWNbdCOCR1yRwBj8hQA
+																l9O1vCbO2DWqiFiLkRDyrdV78kDOBwBnsTxTf7Xgj0+B7cvNNOjfZ43Uq0xAzk8cA8EtjHOa
+																wriW5vdSt7QQt/Z8ZMqWkgd5rkq3JkDEbUyfl3HkjGOgrdttIh2q0y4LgCWJJd6yYJwWcgM/
+																BxhjjHGKAM+3WbULiO+tImjuDjeY5VaF0A4VmZTkZzxHxkcmtSw0WK3ETTMtxJGcodgVE5yN
+																iDhcZ69fetZI0jRURFVVGFUDAA9BT8D0FABtX0H5UuKKKACiiigApG4U0tNfOw4oA5XXrh4f
+																Emgt5EswDT5CYJA2jnHU/Qc+1a5aDU7KVI7hwD8haF9rxsO3sQex/GsXxDfJaeI/D7SRzupe
+																ZQIYWkPKjHCgnHv096t6lMl9DcJpl0ZL+2YRlLe5CtGWIzkEFQQMnDKfwzQAs15LdRXOnR2M
+																8txEMK91DmEnBKSFujDIBwvzD0qpdz+LngsoYLbS0eWVPtEsV4x8tA2WKq0Y3AqMeoLegzVm
+																cz2cMV1qE8xa1yVkt+BMNmW8xSNijjqTxgcjOK5qDVIlaxNrpF/ZSRJNDYNNE3kbGPJORuZt
+																sYYIDk544yQAdImpx6nfNpyfZw0Q/wCJhaXADyKrLkDA+Ug5OWyRxjnJxfutRiszHAiSS3Eq
+																sYreIfM+1cnrwo6DJIGWUZGayL63VbOS/kjTTksi139qEWX4bdMSi/wug6Ek5PIyoq2NS0nS
+																ojDFIPNaFbhoolaa4lThA5UZdsAKNxyeOelAGzCxZlyMZHGOnT+n9asL90VDEQzhsnkZ5/z7
+																/rUy/dFADqKKKACiiigAooooAKKKKACiiigCrd20N7ayW1wm+KRdrpkjI/CqI0zy1uPKu7pD
+																KgRSGB8oAcbR0/Egn3rYpMD0FAGRBp1rBbRWyQI0UbBlVhuyQfvc9TnnP606ysI7Sa5kDtLL
+																O26SWRss3oOOgA4A/wAa1Nq4xgY+lLtA7CgDKTTo21KO+laSWQArGHI2x+pUep9cn2wKsvp9
+																mQ7C1hVmLNvVQrbmGCQw5BI4yOauYHoKWgCja2kVrHtjjCBiC57u3Qk55Yn1PNXqTAHYUtAB
+																RRRQAUUUUAFFFFABTXyEOKdSN900Acf4m1FNO8QaFNNHcugaYYt4HmblR/CgJ/HpUniUQXH9
+																gzmAFxqMZRpYtrKCjZ68jtn6UniSS/TxBoZ0+C3muN02EnnMS42jqQjH9KzfEVz4l/4lXnaT
+																pSf8TBNuzUZW3Ntfg/6OOOvP6UAXbfXfCsbLZQ+JLJ97Mj202oJN5rMcEHeWJ9gCB2qx4nkj
+																tG0KR2WKCLUVbPRUUQy8+gFTJd+KvMUS6Toyx5G9k1OViB3wPIHP4iq/i17pBoT2kMUs/wDa
+																SbI5pTGjfuperBWPr0BoAx9V13QLjwzqdvB4ottRvTYXaxj7ZGXfMZJG1NoOABj5SQB7nPTR
+																3droujWn+j3HkqiRxxWdq8u3jj5I1OBxjOAKxfE134pPhTWRPpOkJF9hm3vHqcjMF2NkgGAA
+																nHYkVetbnxYbeELpGj7di4P9qS5AwPW2oA3bOYTQwygSKsiAoskbIwGM4IbBB9iAfYYq4v3R
+																VW1ed4I2uESOcoDIsbFlDY5AJAJH4A+wq0v3RQA6im8+tHPrQA6im8+tHPrQA6im8+tHPrQA
+																6im8+tHPrQA6im8+tHPrQA6im8+tHPrQA6im8+tHPrQA6im8+tHPrQA6im8+tHPrQA6im8+t
+																HPrQA6im8+tHPrQA6im8+tHPrQA6mv8AdNHPrSdetAHI+JLGLUte0K3uJLhIy0zZt55IWHyj
+																+JCG/XBqh4h8LadC2lbbjVjvv40IfVrtuNrdMynB9xzXebRx/gKWgDn18J6dG6yJcawWRgwz
+																rN2wyD3BlwR7GofFOnHUV0eDZctGNQRpWtpHRlURyfNvQgryQOD3rpqP4ulAHAeKfB2/QZYt
+																MudTEkh2TmTUby5IiIIYrF54DsMg7STkA8MeDb0jwYsVsI9Q1K/uJSQUNvf30KhQBwVa4bnO
+																eeB7V2e0de/0FG0f5AoAq2kKW0EcEZkKxoFDSyF2IA43MSSTxySc8VcX7opp46VQkvJY5GRd
+																uAcDigD/2Q==
+															</image>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Beton: C 20/25</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Steigungsverhältnis: 17/30 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Laufbreite: 140 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Plattendicke: 18 cm</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Treppen C20/25, StB, gewendelt, d=18cm Stecker
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800073" RNoPart="23">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>20.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Durchbrüche mit Polystyrol-Blöcken (EPS)
+																in Decken aus Ortbeton herstellen, Einzelgröße 25/25 cm,
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bauteildicke 18,0 cm.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Durchbruch Stb.-Decke, 25/25 cm, mit
+																	Polystyrolblöcken</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800074" RNoPart="24">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>20.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Vorgenannte Durchbrüche nach
+																Installation schließen, einschl. Schalung und Beton.
+															</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Durchbrüche schließen</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800075" RNoPart="25">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>4.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Öffnungen, eckig, für Lichtkuppeln bzw.
+																RWA-Anlagen u.ä. in Stahlbetondecken, einschalen und
+																anlegen.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Deckenstärke: 18 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Abmessung: 120/240 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Öffnungen schalen, 120/240 cm, d=18 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800076" RNoPart="26">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>15.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton des Unterzugs, Unterseite
+																waagerecht, obere Betonfläche waagerecht, aus Stahlbeton
+																als Sichtbeton DIN 1045 C 20/25, einschl. 2-seitiger
+																Schalung. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Bewehrung in ges.Position.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Querschnitt über 35/24cm,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Erdgeschoss zum Altbau</span>
+														</p>
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Unterzug, Stahlbeton C 20 /25 Querschn.=
+																	35/24cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800077" RNoPart="27">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>35.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonstützen aus bewehrtem Beton,
+																Beton als Normalbeton DIN 1045 C20/25, zweiseitig
+																geschalt und in Mauerwerk eingebunden, Bewehrung
+																gesondert, einschl. einseitiger Dämmung aus Styropor WLG
+																035,5 cm stark, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Querschnitt b/d = 40/24 cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">h = 2,95 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Stahlbetonstützen, C20/25, 40/24 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800078" RNoPart="28">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>8.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Stahlbetonstützen aus bewehrtem Beton,
+																Beton als Normalbeton DIN 1045 C20/25, einschl.
+																Sichtschalung und Dreikantleisten, Bewehrung gesondert,
+																einschl. einseitiger Wärmedämmung aus Styrodur WLG 035,
+																5 cm stark, (auf 40 cm) </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Querschnitt b/d = 40/24cm, </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">h = 3,22 m.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Stahlbetonstützen, C20/25, 40/24 cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800079" RNoPart="29">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>7.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Konsole an Stützen, als
+																Schwerbeton DIN EN 206-1, aus Stahlbeton, zur Aufnahme
+																eines Kranbahnträgers, Expositionsklasse
+																Betonbewehrungskorrosion XC3 (DIN EN 206-1 / DIN
+																1045-2), Druckfestigkeitsklasse C20/25,</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;"> Abmessungen 40/40/37,5. </span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Einschl. Schalung / Bewehrung.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Kranbahnauflager (an Stützen), StB. C20/25, XC3
+																</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800080" RNoPart="30">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>4.000</Qty>
+										<QU>St</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>341</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Konsole an Stützen, als
+																Schwerbeton DIN EN 206-1, aus Stahlbeton, zur Aufnahme
+																eines Kranbahnträgers, Expositionsklasse
+																Betonbewehrungskorrosion XC3 (DIN EN 206-1 / DIN
+																1045-2), Druckfestigkeitsklasse C20/25, Abmessungen
+																40/60/37,5. einschl. Schalung / Bewehrung.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Kranbahnträgerauflager (an Stützen), StB. C30/37,
+																	XC3</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800081" RNoPart="31">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>35.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>331</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ringanker in Beton C20/25 einschl.
+																Schalung und 5 cm Wärmedämmung WLG 035 über bzw. in
+																Wänden. Bewehrung in gesonderter Position. Querschnitt :
+																20/20 cm</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ringanker C20/25 über 30er Wänden</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+									<Item ID="IT10335800082" RNoPart="33">
+										<UPBkdn>Yes</UPBkdn>
+										<Qty>110.000</Qty>
+										<QU>m</QU>
+										<CtlgAssign>
+											<CtlgID>CTLG100000</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100001</CtlgID>
+											<CtlgCode>013</CtlgCode>
+										</CtlgAssign>
+										<CtlgAssign>
+											<CtlgID>CTLG100010</CtlgID>
+											<CtlgCode>351</CtlgCode>
+										</CtlgAssign>
+										<Description>
+											<CompleteText>
+												<DetailTxt>
+													<Text>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Ortbeton der Attika, obere Betonfläche
+																waagerecht, aus Stahlbeton DIN 1045 C 20/25, einschl.
+																Schalung. Querschnitt über 20/25cm, einschl. 2-seitiger
+																Wärmedämmung aus Styrodur WLG 035, 5 cm stark. Bewehrung
+																in ges.Position.</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;">
+															<span style="font-family:Arial;font-size:10pt;">Dachgeschoss</span>
+														</p>
+														<p
+															style="font-family:Arial;font-size:10pt;text-align:left;margin-top:0pt;margin-bottom:0pt;" />
+													</Text>
+												</DetailTxt>
+												<OutlineText>
+													<OutlTxt>
+														<TextOutlTxt>
+															<p
+																style="text-align:left;margin-top:0pt;margin-bottom:0pt;">
+																<span>Ortbeton, Attikaaufkantung, Stahlbeton C 20/25 Q.=
+																	20/25cm</span>
+															</p>
+														</TextOutlTxt>
+													</OutlTxt>
+												</OutlineText>
+											</CompleteText>
+										</Description>
+									</Item>
+								</Itemlist>
+							</BoQBody>
+						</BoQCtgy>
+					</BoQBody>
+				</BoQCtgy>
+			</BoQBody>
+		</BoQ>
+	</Award>
+</GAEB>
