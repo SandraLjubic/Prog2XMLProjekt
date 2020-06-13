@@ -79,15 +79,15 @@ public class Main {
 		String kurztext = null;
 		String gp = null;
 		
-		NodeList secoundLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy/BoQBody").evaluate(doc, XPathConstants.NODE)).getChildNodes();
-		for (int i = 0; i < secoundLvl.getLength(); i++) {
-			list.add(parseDTOSecoundLvl(secoundLvl.item(i), oz + "."));
+		NodeList secondLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy/BoQBody").evaluate(doc, XPathConstants.NODE)).getChildNodes();
+		for (int i = 0; i < secondLvl.getLength(); i++) {
+			list.add(parseDTOSecondLvl(secondLvl.item(i), oz + "."));
 		}
 
 		return new LineDTO(oz, posArt, kurztext, null, null, null, null, null, null, null, null, null, gp);
 	}
 
-	private static LineDTO parseDTOSecoundLvl(Node item, String preOz) throws XPathExpressionException {
+	private static LineDTO parseDTOSecondLvl(Node item, String preOz) throws XPathExpressionException {
 		String oz = preOz + item.getAttributes().getNamedItem("RNoPart").getNodeValue();
 		String posArt = "Bereich";
 		String kurztext = null;
