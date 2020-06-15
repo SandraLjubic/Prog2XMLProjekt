@@ -40,7 +40,7 @@ public class LineDTO {
 
 	@Override
 	public String toString() {
-		return oz + " " + posArt + " " + kurztext;
+		return oz + " | " + posArt + " | " + kurztext + " | " + menge + " | " + einheit;
 	}
 
 	public String getOz() {

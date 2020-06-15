@@ -2,9 +2,13 @@ package Anwendung;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.management.RuntimeErrorException;
+import javax.sound.sampled.Line;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.xml.parsers.DocumentBuilder;
@@ -35,16 +39,40 @@ public class Main {
 	private static DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
 	private static XPathFactory xpathfactory = XPathFactory.newInstance();
 	private static XPath xpath = xpathfactory.newXPath();
-	
+	private static int korrekturIndex = 0;
+
 	private static Document doc;
 
 	public static void main(String[] args) {
 
 		start();
 
+		Collections.sort(list, new Comparator<LineDTO>() {
+
+			@Override
+			public int compare(LineDTO o1, LineDTO o2) {
+				
+				String a = o1.getOz().replaceAll("\\.", "");
+				String b = o2.getOz().replaceAll("\\.","");
+				
+				while(a.length()<3) {
+					a = a + "0";
+				}
+				while(b.length()<3) {
+					b = b+ "0";
+				}
+				
+				Integer aInt = Integer.parseInt(a);
+				Integer bInt= Integer.parseInt(b);
+				
+				return aInt.compareTo(bInt);
+			}
+
+		});
 		for (LineDTO line : list) {
 			System.out.println(line);
 		}
+
 	}
 
 	private static void start() {
@@ -52,12 +80,11 @@ public class Main {
 			DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
 			doc = docBuilder.parse(new File("Muster-Ausschreibungs-LV-ErdMauerBetonarbeiten-xml32.x83"));
 
-			Node firstNode = doc.getElementsByTagName("BoQBody").item(0);
-
-			NodeList firstLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody").evaluate(doc, XPathConstants.NODE)).getChildNodes();
+			NodeList firstLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody").evaluate(doc, XPathConstants.NODE))
+					.getChildNodes();
 
 			for (int i = 0; i < firstLvl.getLength(); i++) {
-				list.add(parseDTOFirstLvl(firstLvl.item(i)));
+				list.add(parseDTOFirstLvl(firstLvl.item(i), i + 1));
 			}
 
 		} catch (SAXParseException err) {
@@ -73,41 +100,61 @@ public class Main {
 		}
 	}
 
-	private static LineDTO parseDTOFirstLvl(Node item) throws XPathExpressionException {
+	private static LineDTO parseDTOFirstLvl(Node item, int ebene1) throws XPathExpressionException {
 		String oz = item.getAttributes().getNamedItem("RNoPart").getNodeValue();
-		String posArt = "Bereich";
+		String posArt = "BEREICH";
 		String kurztext = null;
 		String gp = null;
-		
-		NodeList secondLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy/BoQBody").evaluate(doc, XPathConstants.NODE)).getChildNodes();
+
+		NodeList secondLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody").evaluate(doc,
+				XPathConstants.NODE)).getChildNodes();
 		for (int i = 0; i < secondLvl.getLength(); i++) {
-			list.add(parseDTOSecondLvl(secondLvl.item(i), oz + "."));
+			list.add(parseDTOSecondLvl(secondLvl.item(i), oz + ".", ebene1, i + 1));
 		}
 
 		return new LineDTO(oz, posArt, kurztext, null, null, null, null, null, null, null, null, null, gp);
 	}
 
-	private static LineDTO parseDTOSecondLvl(Node item, String preOz) throws XPathExpressionException {
+	private static LineDTO parseDTOSecondLvl(Node item, String preOz, int ebene1, int ebene2)
+			throws XPathExpressionException {
 		String oz = preOz + item.getAttributes().getNamedItem("RNoPart").getNodeValue();
-		String posArt = "Bereich";
-		String kurztext = null;
+		String posArt = "BEREICH";
+		String kurztext = getKurztextEbene2(item, ebene1, ebene2);
 		String gp = null;
 
-		NodeList thridLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy/BoQBody/BoQCtgy/BoQBody/Itemlist").evaluate(doc, XPathConstants.NODE)).getChildNodes();
+		NodeList thridLvl = ((Node) xpath
+				.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody/BoQCtgy[" + ebene2 + "]/BoQBody/Itemlist")
+				.evaluate(doc, XPathConstants.NODE)).getChildNodes();
 
 		for (int i = 0; i < thridLvl.getLength(); i++) {
-			list.add(parseDTOEinheit(thridLvl.item(i), oz + "."));
-		}
+			Node item2 = ((Node) xpath
+					.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody/BoQCtgy[" + ebene2
+							+ "]/BoQBody/Itemlist/Item[" + (i + 1 + korrekturIndex) + "]")
+					.evaluate(doc, XPathConstants.NODE));
+			if (item2 == null) {
+				continue;
+			}
+			if (!item2.getNodeName().equalsIgnoreCase("item")) {
+				korrekturIndex += 1;
+			}
 
+			list.add(parseDTOEinheit(oz + ".", ebene1, ebene2, i + 1 + korrekturIndex));
+		}
+		korrekturIndex = 0;
 		return new LineDTO(oz, posArt, kurztext, null, null, null, null, null, null, null, null, null, gp);
 	}
 
-	private static LineDTO parseDTOEinheit(Node item, String preOz) throws XPathExpressionException {
+	private static LineDTO parseDTOEinheit(String preOz, int ebene1, int ebene2, int ebene3)
+			throws XPathExpressionException {
+
+		Node item = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody/BoQCtgy[" + ebene2
+				+ "]/BoQBody/Itemlist/Item[" + ebene3 + "]").evaluate(doc, XPathConstants.NODE));
+
 		String oz = preOz + item.getAttributes().getNamedItem("RNoPart").getNodeValue();
 		String posArt = "EPANTEILE";
-		String kurztext = getKurztext(item);
-		String menge = null;
-		String einheit = null;
+		String kurztext = getKurztextEbene3(item);
+		String menge = getMenge(item);
+		String einheit = getEinheit(item);
 		String loehne = null;
 		String stoffe = null;
 		String betriebskosten = null;
@@ -120,59 +167,28 @@ public class Main {
 				sonstiges, nachunternehmer, ep, gp);
 	}
 
-	private static String getKurztext(Node item) throws XPathExpressionException {
-		Node test = (Node) xpath.compile("//Description/CompleteText/OutlineText/OutlTxt/TextOutlTxt").evaluate(item,
+	private static String getEinheit(Node item) throws XPathExpressionException {
+		Node einheit = (Node) xpath.compile("QU").evaluate(item, XPathConstants.NODE);
+		return einheit.getTextContent();
+
+	}
+
+	private static String getMenge(Node item) throws XPathExpressionException {
+		Node menge = (Node) xpath.compile("Qty").evaluate(item, XPathConstants.NODE);
+		return menge.getTextContent();
+	}
+
+	private static String getKurztextEbene3(Node item) throws XPathExpressionException {
+		Node kurztext = (Node) xpath.compile("Description/CompleteText/OutlineText/OutlTxt/TextOutlTxt").evaluate(item,
 				XPathConstants.NODE);
-		return test.getTextContent();
+		return kurztext.getTextContent();
 	}
 
-	static void parseBody(Element e) {
-
-		Node n = e.getFirstChild();
-		while (n.getNextSibling() != null) {
-			n = n.getNextSibling();
-			if (n.getNodeType() == Node.ELEMENT_NODE) {
-				Element child = (Element) n;
-				if (child.getNodeName() == "Itemlist") {
-					printItem(child);
-					return;
-				}
-				NodeList categorylistList = child.getElementsByTagName("BoQCtgy");
-				Element categ = (Element) categorylistList.item(0);
-				printCateg(categ);
-
-				NodeList bodyList = child.getElementsByTagName("BoQBody");
-				Element bodyElement = (Element) bodyList.item(0);
-				parseBody(bodyElement);
-
-			}
-		}
+	private static String getKurztextEbene2(Node item, int ebene1, int ebene2) throws XPathExpressionException {
+		Node kurztext = (Node) xpath
+				.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody/BoQCtgy[" + ebene2 + "]/LblTx")
+				.evaluate(doc, XPathConstants.NODE);
+		return kurztext.getTextContent();
 	}
 
-	// bekommt Element <Itemlist> mit 1-n Items
-	static void printItem(Element e) {
-		// hier noch Schleife bauen
-		String[] row = new String[4];
-		row[0] = "irgendwas";
-		row[1] = "irgendwas anderes";
-		row[2] = "irgendwas anderes";
-		row[3] = "irgendwas anderes";
-		model.addRow(row);
-		System.out.println("da werden die Items gedruckt");
-
-		// zum Test 2.row
-		row[0] = "irgendwas";
-		row[1] = "irgendwas anderes";
-		row[2] = "irgendwas anderes";
-		row[3] = "irgendwas anderes";
-
-		model.addRow(row);
-		System.out.println("da werden die Items gedruckt");
-
-	}
-
-	// bekommt Element <BoQCtgy ID, RNoPart>
-	static void printCateg(Element e) {
-		System.out.println("da werden die Categories gedruckt");
-	}
 }
