@@ -5,27 +5,19 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.management.RuntimeErrorException;
-import javax.sound.sampled.Line;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.xml.parsers.DocumentBuilder;
-
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
-
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
@@ -51,20 +43,20 @@ public class Main {
 
 			@Override
 			public int compare(LineDTO o1, LineDTO o2) {
-				
+
 				String a = o1.getOz().replaceAll("\\.", "");
-				String b = o2.getOz().replaceAll("\\.","");
-				
-				while(a.length()<3) {
+				String b = o2.getOz().replaceAll("\\.", "");
+
+				while (a.length() < 3) {
 					a = a + "0";
 				}
-				while(b.length()<3) {
-					b = b+ "0";
+				while (b.length() < 3) {
+					b = b + "0";
 				}
-				
+
 				Integer aInt = Integer.parseInt(a);
-				Integer bInt= Integer.parseInt(b);
-				
+				Integer bInt = Integer.parseInt(b);
+
 				return aInt.compareTo(bInt);
 			}
 
@@ -102,9 +94,7 @@ public class Main {
 
 	private static LineDTO parseDTOFirstLvl(Node item, int ebene1) throws XPathExpressionException {
 		String oz = item.getAttributes().getNamedItem("RNoPart").getNodeValue();
-		String posArt = "BEREICH";
-		String kurztext = null;
-		String gp = null;
+		String kurztext = "";
 
 		NodeList secondLvl = ((Node) xpath.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody").evaluate(doc,
 				XPathConstants.NODE)).getChildNodes();
@@ -112,15 +102,13 @@ public class Main {
 			list.add(parseDTOSecondLvl(secondLvl.item(i), oz + ".", ebene1, i + 1));
 		}
 
-		return new LineDTO(oz, posArt, kurztext, null, null, null, null, null, null, null, null, null, gp);
+		return new LineDTO(oz, kurztext, "", "");
 	}
 
 	private static LineDTO parseDTOSecondLvl(Node item, String preOz, int ebene1, int ebene2)
 			throws XPathExpressionException {
 		String oz = preOz + item.getAttributes().getNamedItem("RNoPart").getNodeValue();
-		String posArt = "BEREICH";
 		String kurztext = getKurztextEbene2(item, ebene1, ebene2);
-		String gp = null;
 
 		NodeList thridLvl = ((Node) xpath
 				.compile("*/Award/BoQ/BoQBody/BoQCtgy[" + ebene1 + "]/BoQBody/BoQCtgy[" + ebene2 + "]/BoQBody/Itemlist")
@@ -141,7 +129,7 @@ public class Main {
 			list.add(parseDTOEinheit(oz + ".", ebene1, ebene2, i + 1 + korrekturIndex));
 		}
 		korrekturIndex = 0;
-		return new LineDTO(oz, posArt, kurztext, null, null, null, null, null, null, null, null, null, gp);
+		return new LineDTO(oz, kurztext, "", "");
 	}
 
 	private static LineDTO parseDTOEinheit(String preOz, int ebene1, int ebene2, int ebene3)
@@ -151,20 +139,11 @@ public class Main {
 				+ "]/BoQBody/Itemlist/Item[" + ebene3 + "]").evaluate(doc, XPathConstants.NODE));
 
 		String oz = preOz + item.getAttributes().getNamedItem("RNoPart").getNodeValue();
-		String posArt = "EPANTEILE";
 		String kurztext = getKurztextEbene3(item);
 		String menge = getMenge(item);
 		String einheit = getEinheit(item);
-		String loehne = null;
-		String stoffe = null;
-		String betriebskosten = null;
-		String geraetekosten = null;
-		String sonstiges = null;
-		String nachunternehmer = null;
-		String ep = null;
-		String gp = null;
-		return new LineDTO(oz, posArt, kurztext, menge, einheit, loehne, stoffe, betriebskosten, geraetekosten,
-				sonstiges, nachunternehmer, ep, gp);
+
+		return new LineDTO(oz, kurztext, menge, einheit);
 	}
 
 	private static String getEinheit(Node item) throws XPathExpressionException {
