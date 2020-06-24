@@ -89,7 +89,7 @@ public class GUI implements ActionListener {
 
 	}
 
-	public void OpenFile() {
+	public void openFile() {
 		JFileChooser fileChooser = new JFileChooser();
 		fileChooser.setCurrentDirectory(new File("/Users/elena/"));
 		int result = fileChooser.showOpenDialog(new JFrame());
@@ -101,14 +101,14 @@ public class GUI implements ActionListener {
 //			for (String[] i : arrayFuerGui) {
 //				System.out.println(Arrays.toString(i));
 //			}
-			AddTable();
+			addTable();
 
 		}
 	}
 
 	// Adding table to the frame
 	
-	public void AddTable() {
+	public void addTable() {
 
 		JTable x = new JTable(arrayFuerGui, ueberschrift);
 		JScrollPane sp = new JScrollPane(x);
@@ -120,7 +120,7 @@ public class GUI implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		if (e.getActionCommand().equals("fileChooser")) {
-			OpenFile();
+			openFile();
 		}
 
 		if (e.getActionCommand().contentEquals("exitProgramm")) {
