@@ -7,6 +7,12 @@ import javax.swing.*;
 
 import Anwendung.ReadXML;
 
+/**
+ * 
+ * @author Kamila Sultanova
+ *
+ */
+
 public class GUI implements ActionListener {
 	public JFrame frame;
 
@@ -57,12 +63,12 @@ public class GUI implements ActionListener {
 		});
 
 		JButton fileChooser = new JButton("<html><span style='font-size:10px'>Open file</span></html>",
-				new ImageIcon("/Users/elena/git/Prog2XMLProjekt/Prog2XMLProjekt/src/GUI/file.png"));
+				new ImageIcon("/Prog2XMLProjekt/src/GUI/file.png"));
 		fileChooser.addActionListener(this);
 		fileChooser.setActionCommand("fileChooser");
 
 		JButton exit = new JButton("<html><span style='font-size:10px'>Exit</span></html>",
-				new ImageIcon("/Users/elena/git/Prog2XMLProjekt/Prog2XMLProjekt/src/GUI/exit.png"));
+				new ImageIcon("/Prog2XMLProjekt/src/GUI/exit.png"));
 		exit.addActionListener(this);
 		exit.setActionCommand("exitProgramm");
 
@@ -100,6 +106,8 @@ public class GUI implements ActionListener {
 		}
 	}
 
+	// Adding table to the frame
+	
 	public void AddTable() {
 
 		JTable x = new JTable(arrayFuerGui, ueberschrift);

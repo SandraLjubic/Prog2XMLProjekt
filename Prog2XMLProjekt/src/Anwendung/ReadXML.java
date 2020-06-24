@@ -15,6 +15,13 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
+/**
+ * 
+ * @author Sandra Ljubic,
+ * David O. Mitchell
+ *
+ */
+
 public class ReadXML {
 	static XMLInputFactory factory = XMLInputFactory.newInstance();
 	static XMLStreamReader parser;
