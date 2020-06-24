@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import javax.swing.*;
 
+import Anwendung.ReadXML;
+
 public class GUI implements ActionListener {
 	public JFrame frame;
 
@@ -55,12 +57,12 @@ public class GUI implements ActionListener {
 		});
 
 		JButton fileChooser = new JButton("<html><span style='font-size:10px'>Open file</span></html>",
-				new ImageIcon("/Users/elena/eclipse-workspace/final/src/file.png"));
+				new ImageIcon("/Users/elena/git/Prog2XMLProjekt/Prog2XMLProjekt/src/GUI/file.png"));
 		fileChooser.addActionListener(this);
 		fileChooser.setActionCommand("fileChooser");
 
 		JButton exit = new JButton("<html><span style='font-size:10px'>Exit</span></html>",
-				new ImageIcon("/Users/elena/eclipse-workspace/final/src/exit.png"));
+				new ImageIcon("/Users/elena/git/Prog2XMLProjekt/Prog2XMLProjekt/src/GUI/exit.png"));
 		exit.addActionListener(this);
 		exit.setActionCommand("exitProgramm");
 
